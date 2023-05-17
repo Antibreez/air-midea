@@ -62,4 +62,20 @@
     right: 16px;
     /* object-position: right bottom; */
   }
+
+  .card-square {
+    padding-right: 9.2rem;
+  }
+
+  .card-square__photo {
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+    height: calc(100% - 32px);
+    width: calc(9rem - 40px);
+  }
+
+  .card-square__photo .picture__image {
+    object-position: right bottom;
+  }
 }
