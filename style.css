@@ -67,6 +67,15 @@
     padding-right: 9.2rem;
   }
 
+  .card-category {
+    /* padding-right: 5.5rem; */
+  }
+
+  .card-category__name {
+    font-size: 0.77rem;
+    letter-spacing: -0.03em;
+  }
+
   .card-square__photo {
     position: absolute;
     bottom: 16px;
@@ -77,5 +86,10 @@
 
   .card-square__photo .picture__image {
     object-position: right bottom;
+  }
+
+  .card-square__name {
+    font-size: 0.77rem;
+    letter-spacing: -0.03em;
   }
 }
