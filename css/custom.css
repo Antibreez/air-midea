@@ -122,3 +122,22 @@
   padding-bottom: calc(1.5rem - 5px);
   opacity: 0;
 }
+
+.info-seo__text {
+  display: flex;
+}
+
+.info-seo__text p {
+  flex: 1;
+  margin: 0;
+}
+
+@media (max-width: 768.98px) {
+  .info-seo__text {
+    flex-direction: column;
+  }
+
+  .info-seo__text p:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
