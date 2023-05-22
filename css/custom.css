@@ -1,0 +1,124 @@
+.card-category__photo {
+  right: 24px;
+  bottom: 16px;
+  height: calc(100% - 116px);
+  width: calc(100% - 48px);
+  object-fit: contain;
+  object-position: right center;
+}
+
+.card-category__photo.align-left-center {
+  object-position: left center;
+}
+.card-category__photo.align-left-top {
+  object-position: left top;
+}
+.card-category__photo.align-left-bottom {
+  object-position: left bottom;
+}
+.card-category__photo.align-center-bottom {
+  object-position: center bottom;
+}
+.card-category__photo.align-center-top {
+  object-position: center top;
+}
+.card-category__photo.align-center {
+  object-position: center center;
+}
+.card-category__photo.align-right-top {
+  object-position: right top;
+}
+.card-category__photo.align-right-center {
+  object-position: right center;
+}
+.card-category__photo.align-right-bottom {
+  object-position: right bottom;
+}
+
+.categories-grid__card:first-child .card-category__photo,
+.categories-grid__card:nth-child(6) .card-category__photo {
+  width: calc(50% - 16px);
+}
+
+.card-square__photo {
+  bottom: 24px;
+  right: 24px;
+  height: calc(100% - 30px - 5rem);
+  max-width: none;
+  width: calc(70%);
+}
+
+.card-square__photo .picture__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: right bottom;
+}
+
+.brand-detail__products .card-category__photo {
+  right: 24px;
+  bottom: 16px;
+  max-height: none;
+  height: calc(100% - 100px);
+}
+
+@media (max-width: 768.98px) {
+  .categories-grid__card:nth-child(n) .card-category__photo {
+    width: calc(6rem - 32px);
+    height: calc(100% - 32px);
+    right: 16px;
+    /* object-position: right bottom; */
+  }
+
+  .card-square {
+    padding-right: 9.2rem;
+  }
+
+  .card-category {
+    /* padding-right: 5.5rem; */
+  }
+
+  .card-category__name {
+    font-size: 0.77rem;
+    letter-spacing: -0.03em;
+  }
+
+  .card-square__photo {
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+    height: calc(100% - 32px);
+    width: calc(9rem - 40px);
+  }
+
+  .card-square__photo .picture__image {
+    object-position: right bottom;
+  }
+
+  .card-square__name {
+    font-size: 0.77rem;
+    letter-spacing: -0.03em;
+  }
+
+  .brand-detail__products .card-category__photo {
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+    height: calc(100% - 32px);
+    width: calc(6.2rem - 40px);
+  }
+}
+
+.models-compare__column--first .models-compare__line:not(:last-child) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.models-compare__column--first .models-compare__line:not(:last-child)::after {
+  content: ".";
+  padding-top: calc(1.5rem - 5px);
+  padding-bottom: calc(1.5rem - 5px);
+  opacity: 0;
+}
