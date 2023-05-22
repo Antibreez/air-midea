@@ -141,3 +141,34 @@
     margin-bottom: 1rem;
   }
 }
+
+/* ============================================== */
+.about-brand__preview {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about-brand__preview .preview-block__img {
+  width: 55%;
+  object-fit: contain;
+  object-position: right 0 bottom 16px;
+}
+
+.about-brand__preview .preview-block__text {
+  max-width: 55%;
+}
+
+.preview-block {
+  height: auto;
+}
+
+@media (max-width: 768.98px) {
+  .about-brand__preview .preview-block__text {
+    max-width: 100%;
+  }
+
+  .about-brand__preview {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
