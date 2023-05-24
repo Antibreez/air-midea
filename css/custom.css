@@ -337,7 +337,7 @@ img.icon.function-icon__img {
     padding: 5vw 15vw 5vw 5vw;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #D1D9E0;
+    border-bottom: 1px solid #d1d9e0;
     z-index: 2;
   }
 
@@ -357,7 +357,6 @@ img.icon.function-icon__img {
     padding-top: 7.5vw;
     padding-bottom: 7.5vw;
     font-size: 4.69vw;
-
   }
 
   .header__top .app-nav__item:hover {
@@ -379,5 +378,48 @@ img.icon.function-icon__img {
     font-size: 3.75vw;
     padding: 2.19vw;
     margin-top: 2.5vw;
+  }
+}
+/*========================================================*/
+.support-section__card .card-category__photo {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: none;
+  width: auto;
+  height: 100%;
+  object-fit: unset;
+  object-position: unset;
+  max-width: none;
+}
+
+@media (max-width: 1439.98px) {
+  .support-section__card .card-category__photo {
+    height: 95%;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .support-section__card .card-category__photo {
+    height: 100%;
+  }
+}
+
+.support-section__inner--technical .support-section__card:nth-child(2) {
+  grid-column: span 2;
+  background-image: linear-gradient(80.4deg, #f8f8f8 3.41%, #dcecf9 86.97%);
+}
+
+@media (max-width: 768.98px) {
+  .breadcrumb__item:nth-last-child(2)::before {
+    background: url('data:image/svg+xml;utf8,<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1L1 5L5 9" stroke="rgba(33, 33, 33, 1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(0deg);
+  }
+
+  .support-section__card .card-category__name {
+    max-width: 32.5vw;
   }
 }
