@@ -242,8 +242,8 @@ img.icon.function-icon__img {
   display: block;
   height: 100%;
   width: 100%;
-  -webkit-backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) opacity(0.5);
-  backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) opacity(0.5);
+  -webkit-backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) opacity(50%);
+  backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) opacity(50%);
 }
 
 .slider-main__progress-inner .progress-bar__value {
@@ -424,4 +424,9 @@ img.icon.function-icon__img {
   .support-section__card .card-category__name {
     max-width: 32.5vw;
   }
+}
+/*===================================*/
+.benefits .benefits__content-item a {
+  color: #fff;
+  text-decoration: underline;
 }
