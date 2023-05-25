@@ -431,7 +431,8 @@ img.icon.function-icon__img {
   text-decoration: underline;
 }
 /*======================================*/
-.slider-objects__slide::before {
+.slider-objects__slide::before,
+.card-object__link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -442,6 +443,11 @@ img.icon.function-icon__img {
   z-index: 2;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+.card-object .card-object__title {
+  position: relative;
+  z-index: 7;
 }
 
 .slider-main__tag {
