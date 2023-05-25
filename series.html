@@ -1,0 +1,3593 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="Keywords" />
+    <meta name="description" content="Description" />
+    <script type="text/javascript" data-skip-moving="true">
+      (function (w, d, n) {
+        var cl = "bx-core";
+        var ht = d.documentElement;
+        var htc = ht ? ht.className : undefined;
+        if (htc === undefined || htc.indexOf(cl) !== -1) {
+          return;
+        }
+        var ua = n.userAgent;
+        if (/(iPad;)|(iPhone;)/i.test(ua)) {
+          cl += " bx-ios";
+        } else if (/Windows/i.test(ua)) {
+          cl += " bx-win";
+        } else if (/Macintosh/i.test(ua)) {
+          cl += " bx-mac";
+        } else if (/Linux/i.test(ua) && !/Android/i.test(ua)) {
+          cl += " bx-linux";
+        } else if (/Android/i.test(ua)) {
+          cl += " bx-android";
+        }
+        cl += /(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch";
+        cl += w.devicePixelRatio && w.devicePixelRatio >= 2 ? " bx-retina" : " bx-no-retina";
+        var ieVersion = -1;
+        if (/AppleWebKit/.test(ua)) {
+          cl += " bx-chrome";
+        } else if (/Opera/.test(ua)) {
+          cl += " bx-opera";
+        } else if (/Firefox/.test(ua)) {
+          cl += " bx-firefox";
+        }
+        ht.className = htc ? htc + " " + cl : cl;
+      })(window, document, navigator);
+    </script>
+
+    <link href="https://air-midea.com/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?168423567122029" type="text/css" rel="stylesheet" />
+    <link href="https://air-midea.com/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16842356742320" type="text/css" rel="stylesheet" />
+    <link href="https://air-midea.com/bitrix/js/main/popup/dist/main.popup.bundle.min.css?168423566525089" type="text/css" rel="stylesheet" />
+    <link href="https://air-midea.com/bitrix/js/main/core/css/core_date.min.css?16842356659928" type="text/css" rel="stylesheet" />
+    <link href="https://air-midea.com/bitrix/js/fileman/sticker.min.css?168423567825517" type="text/css" rel="stylesheet" />
+    <link href="https://air-midea.com/bitrix/js/main/core/css/core_panel.min.css?168423566570783" type="text/css" rel="stylesheet" />
+    <link
+      href="https://air-midea.com/local/templates/midea/components/bitrix/catalog/midea/style.min.css?1684235593959"
+      type="text/css"
+      rel="stylesheet" />
+    <link
+      href="https://air-midea.com/local/assets/css/vendors~index.chunk.css?168423559325048"
+      type="text/css"
+      data-template-style="true"
+      rel="stylesheet" />
+    <link href="css/index.css?1684492748246796" type="text/css" data-template-style="true" rel="stylesheet" />
+    <link href="css/custom.css?168500911110135" type="text/css" data-template-style="true" rel="stylesheet" />
+    <link href="https://air-midea.com/bitrix/panel/main/popup.min.css?168423561620774" type="text/css" data-template-style="true" rel="stylesheet" />
+    <link
+      href="https://air-midea.com/bitrix/panel/main/admin-public.min.css?168423561660169"
+      type="text/css"
+      data-template-style="true"
+      rel="stylesheet" />
+    <link
+      href="https://air-midea.com/bitrix/panel/main/hot_keys.min.css?16842356163150"
+      type="text/css"
+      data-template-style="true"
+      rel="stylesheet" />
+    <link
+      href="https://air-midea.com/bitrix/themes/.default/pubstyles.min.css?168423559748254"
+      type="text/css"
+      data-template-style="true"
+      rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://air-midea.com/local/assets/favicon-safari.jpg" />
+    <link rel="icon" type="image/png" sizes="270x270" href="https://air-midea.com/local/assets/favicon-win.jpg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://air-midea.com/local/assets/favicon.ico" />
+    <!--    <link rel="mask-icon" href="https://air-midea.com/local/assets/safari-pinned-tab.svg" color="#bd1212">-->
+
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Инверторные сплит-системы</title>
+  </head>
+
+  <body data-current-city='{"id":131,"name":"Москва"}'>
+    <!--[if lte IE 7]>
+      <style type="text/css">
+        #bx-panel {
+          display: none !important;
+        }
+      </style>
+      <div id="bx-panel-error">
+        Административная панель не поддерживает Internet Explorer версии 7 и ниже. Установите современный браузер
+        <a href="http://www.firefox.com">Firefox</a>, <a href="http://www.google.com/chrome/">Chrome</a>, <a href="http://www.opera.com">Opera</a> или
+        <a href="http://www.microsoft.com/windows/internet-explorer/">Microsoft Edge</a>.
+      </div><!
+    [endif]-->
+    <div style="display: none; overflow: hidden" id="bx-panel-back"></div>
+    <div id="bx-panel">
+      <div id="bx-panel-top">
+        <div id="bx-panel-top-gutter"></div>
+        <div id="bx-panel-tabs">
+          <a id="bx-panel-menu" href="" onmouseover="BX.hint(this, 'Меню', 'Быстрый переход на любую страницу Административной части.')"
+            ><span id="bx-panel-menu-icon"></span><span id="bx-panel-menu-text">Меню</span></a
+          >
+          <div id="bx-panel-btn-wrap">
+            <a id="bx-panel-view-tab"><span>Сайт</span></a
+            ><a
+              id="bx-panel-admin-tab"
+              href="https://air-midea.com/bitrix/admin/index.php?lang=ru&amp;back_url_pub=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F"
+              ><span>Администрирование</span></a
+            >
+          </div>
+          <a
+            class="adm-header-notif-block"
+            id="adm-header-notif-block"
+            onclick="return BX.adminInformer.Toggle(this);"
+            href=""
+            title="Просмотр уведомлений"
+            ><span class="adm-header-notif-icon"></span><span id="adm-header-notif-counter" class="adm-header-notif-counter">5</span></a
+          ><a id="bx-panel-clear-cache" href="" onclick="BX.clearCache(); return false;"
+            ><span id="bx-panel-clear-cache-icon"></span><span id="bx-panel-clear-cache-text">Сбросить кеш</span></a
+          >
+        </div>
+        <div id="bx-panel-userinfo">
+          <a
+            href="https://air-midea.com/bitrix/admin/user_edit.php?lang=ru&ID=1"
+            id="bx-panel-user"
+            onmouseover="BX.hint(this, 'Быстрый переход на страницу редактирования параметров пользователя.')"
+            ><span id="bx-panel-user-icon"></span><span id="bx-panel-user-text">admin admin</span></a
+          ><a
+            href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?logout=yes&amp;sessid=b9e579594b1d155fea1bd984a152d8f5"
+            id="bx-panel-logout"
+            onmouseover="BX.hint(this, 'Выход пользователя из системы. (&amp;nbsp;Ctrl+Alt+O&amp;nbsp;) ')"
+            >Выйти</a
+          ><a
+            href=""
+            id="bx-panel-expander"
+            onmouseover="BX.hint(this, 'Развернуть', 'Развернуть Панель управления. (&amp;nbsp;Ctrl+Alt+E&amp;nbsp;) ')"
+            ><span id="bx-panel-expander-text">Развернуть</span><span id="bx-panel-expander-arrow"></span></a
+          ><a
+            id="bx-panel-hotkeys"
+            href="javascript:void(0)"
+            onclick="BXHotKeys.ShowSettings();"
+            onmouseover="BX.hint(this, 'Настройки горячих клавиш (&amp;nbsp;Ctrl+Alt+P&amp;nbsp;) ')"></a
+          ><a href="javascript:void(0)" id="bx-panel-pin" onmouseover="BX.hint(this, 'Фиксация Панели управления в верхней части экрана.')"></a>
+        </div>
+      </div>
+      <div id="bx-panel-site-toolbar">
+        <div id="bx-panel-buttons-gutter"></div>
+        <div id="bx-panel-switcher">
+          <a
+            href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?bitrix_include_areas=Y"
+            id="bx-panel-toggle"
+            class="bx-panel-toggle-off"
+            onmouseover="BX.hint(this, 'Режим правки', 'Включение режима контекстного редактирования сайта. При включенном режиме наведите курсор на выбранный блок информации и используйте всплывающие панели инструментов. (&amp;nbsp;Ctrl+Alt+D&amp;nbsp;) ')"
+            ><span id="bx-panel-switcher-gutter-left"></span
+            ><span id="bx-panel-toggle-indicator"><span id="bx-panel-toggle-icon"></span><span id="bx-panel-toggle-icon-overlay"></span></span
+            ><span class="bx-panel-break"></span><span id="bx-panel-toggle-caption">Режим правки</span><span class="bx-panel-break"></span
+            ><span id="bx-panel-toggle-caption-mode"
+              ><span id="bx-panel-toggle-caption-mode-off">выключен</span><span id="bx-panel-toggle-caption-mode-on">включен</span></span
+            ><span id="bx-panel-switcher-gutter-right"></span></a
+          ><a href="" id="bx-panel-hider" onmouseover="BX.hint(this, 'Свернуть', 'Свернуть Панель управления. (&amp;nbsp;Ctrl+Alt+E&amp;nbsp;) ')"
+            >Свернуть<span id="bx-panel-hider-arrow"></span
+          ></a>
+        </div>
+        <div id="bx-panel-buttons">
+          <div id="bx-panel-buttons-inner">
+            <span class="bx-panel-button-group" data-group-id="0"
+              ><span class="bx-panel-button"
+                ><span class="bx-panel-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?lang=ru&amp;site=s1&amp;templateID=midea&amp;path=%2Fcatalog&amp;back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-button-icon-active');"
+                    id="bx_topmenu_btn_create"
+                    ><span class="bx-panel-button-icon bx-panel-create-page-icon"></span></a
+                  ><a id="bx_topmenu_btn_create_menu" href="javascript:void(0)"
+                    ><span class="bx-panel-button-text"
+                      >Создать<span class="bx-panel-break"></span>страницу&nbsp;<span class="bx-panel-button-arrow"></span></span></a></span></span
+              ><span class="bx-panel-button"
+                ><span class="bx-panel-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?lang=ru&amp;site=s1&amp;templateID=midea&amp;newFolder=Y&amp;path=%2Fcatalog&amp;back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-button-icon-active');"
+                    id="bx_topmenu_btn_create_section"
+                    ><span class="bx-panel-button-icon bx-panel-create-section-icon"></span></a
+                  ><a id="bx_topmenu_btn_create_section_menu" href="javascript:void(0)"
+                    ><span class="bx-panel-button-text"
+                      >Создать<span class="bx-panel-break"></span>раздел&nbsp;<span
+                        class="bx-panel-button-arrow"></span></span></a></span></span></span
+            ><span class="bx-panel-button-separator"></span
+            ><span class="bx-panel-button-group" data-group-id="1"
+              ><span class="bx-panel-button"
+                ><span class="bx-panel-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit.php?lang=ru&amp;path=%2Fcatalog%2Findex.php&amp;site=s1&amp;back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;templateID=midea&amp;siteTemplateId=midea','width':'985','height':'552','min_width':'780','min_height':'400'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-button-icon-active');"
+                    id="bx_topmenu_btn_edit"
+                    ><span class="bx-panel-button-icon bx-panel-edit-page-icon"></span></a
+                  ><a id="bx_topmenu_btn_edit_menu" href="javascript:void(0)"
+                    ><span class="bx-panel-button-text"
+                      >Изменить<span class="bx-panel-break"></span>страницу&nbsp;<span class="bx-panel-button-arrow"></span></span></a></span></span
+              ><span class="bx-panel-button"
+                ><span class="bx-panel-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CDialog({'content_url':'/bitrix/admin/public_folder_edit.php?lang=ru&amp;site=s1&amp;path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-button-icon-active');"
+                    id="bx_topmenu_btn_edit_section"
+                    ><span class="bx-panel-button-icon bx-panel-edit-section-icon"></span></a
+                  ><a id="bx_topmenu_btn_edit_section_menu" href="javascript:void(0)"
+                    ><span class="bx-panel-button-text"
+                      >Изменить<span class="bx-panel-break"></span>раздел&nbsp;<span
+                        class="bx-panel-button-arrow"></span></span></a></span></span></span
+            ><span class="bx-panel-button-separator"></span
+            ><span class="bx-panel-button-group" data-group-id="2"
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a href="javascript:void(0)" id="bx_topmenu_btn_menus"
+                    ><span class="bx-panel-small-button-icon bx-panel-menu-icon"></span><span class="bx-panel-small-button-text">Меню</span
+                    ><span class="bx-panel-small-single-button-arrow"></span></a></span></span
+              ><span class="bx-panel-break"></span
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CDialog({'content_url':'/bitrix/admin/public_structure.php?lang=ru&amp;site=s1&amp;path=%2Fcatalog%2Findex.php&amp;templateID=midea&amp;siteTemplateId=midea','width':'350','height':'470'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-small-button-text-active')"
+                    id="bx_topmenu_btn_structure"
+                    ><span class="bx-panel-small-button-icon bx-panel-site-structure-icon"></span
+                    ><span class="bx-panel-small-button-text">Структура</span></a
+                  ><a href="javascript:void(0)" class="bx-panel-small-button-arrow" id="bx_topmenu_btn_structure_menu"
+                    ><span class="bx-panel-small-button-arrow"></span></a></span></span
+              ><span class="bx-panel-break"></span
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CAdminDialog({'content_url':'/bitrix/admin/public_seo_tools.php?lang=ru&amp;bxpublic=Y&amp;from_module=seo&amp;site=s1&amp;path=%2Fcatalog%2Findex.php&amp;title_final=0JjQvdCy0LXRgNGC0L7RgNC90YvQtSDRgdC%2F0LvQuNGCLdGB0LjRgdGC0LXQvNGL&amp;title_changer_name=bitrix%3Acatalog.section&amp;title_changer_link=amF2YXNjcmlwdDoobmV3IEJYLkNBZG1pbkRpYWxvZyh7J2NvbnRlbnRfdXJsJzonL2JpdHJpeC9hZG1pbi9jYXRfc2VjdGlvbl9lZGl0LnBocD9JQkxPQ0tfSUQ9MSZ0eXBlPWNhdGFsb2cmSUQ9MTU2Jmxhbmc9cnUmZm9yY2VfY2F0YWxvZz0xJmZpbHRlcl9zZWN0aW9uPTE1NiZieHB1YmxpYz1ZJmZyb21fbW9kdWxlPWlibG9jayZyZXR1cm5fdXJsPSUyRmNhdGFsb2clMkZieXRvdnllLWtvbmRpdHNpb25lcnklMkZuYXN0ZW5ueWUtc3BsaXQtc2lzdGVteSUyRmludmVydG9ybnllLXNwbGl0LXNpc3RlbXklMkYmc2l0ZVRlbXBsYXRlSWQ9bWlkZWEnLCd3aWR0aCc6JzcwMCcsJ2hlaWdodCc6JzQwMCd9KSkuU2hvdygp&amp;title_win_final=&amp;title_win_changer_name=&amp;title_win_changer_link=&amp;sessid=b9e579594b1d155fea1bd984a152d8f5&amp;back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;siteTemplateId=midea','width':'920','height':'400'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-small-button-active')"
+                    id="bx_topmenu_btn_seo"
+                    ><span class="bx-panel-small-button-icon bx-panel-seo-icon"></span><span class="bx-panel-small-button-text">SEO</span></a
+                  ></span
+                ></span
+              ></span
+            ><span class="bx-panel-button-separator"></span
+            ><span class="bx-panel-button-group" data-group-id="3"
+              ><span class="bx-panel-button"
+                ><span class="bx-panel-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="BX.clearCache();BX.removeClass(this.parentNode.parentNode, 'bx-panel-button-icon-active');"
+                    id="bx_topmenu_btn_0"
+                    ><span class="bx-panel-button-icon bx-panel-clear-cache-icon"></span></a
+                  ><a id="bx_topmenu_btn_0_menu" href="javascript:void(0)"
+                    ><span class="bx-panel-button-text"
+                      >Сбросить<span class="bx-panel-break"></span>кеш&nbsp;<span class="bx-panel-button-arrow"></span></span></a></span></span></span
+            ><span class="bx-panel-button-separator"></span
+            ><span class="bx-panel-button-group" data-group-id="4"
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a href="javascript:void(0)" id="bx_topmenu_btn_components"
+                    ><span class="bx-panel-small-button-icon bx-panel-components-icon"></span
+                    ><span class="bx-panel-small-button-text">Компоненты</span
+                    ><span class="bx-panel-small-single-button-arrow"></span></a></span></span
+              ><span class="bx-panel-break"></span
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="jsUtils.Redirect([], '/bitrix/admin/template_edit.php?lang=ru&amp;ID=midea');BX.removeClass(this.parentNode.parentNode, 'bx-panel-small-button-text-active')"
+                    id="bx_topmenu_btn_1"
+                    ><span class="bx-panel-small-button-icon bx-panel-site-template-icon"></span
+                    ><span class="bx-panel-small-button-text">Шаблон сайта</span></a
+                  ><a href="javascript:void(0)" class="bx-panel-small-button-arrow" id="bx_topmenu_btn_1_menu"
+                    ><span class="bx-panel-small-button-arrow"></span></a></span></span
+              ><span class="bx-panel-break"></span
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a
+                    href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_page_exec_time=Y&amp;show_include_exec_time=Y&amp;show_sql_stat=Y"
+                    onclick=";BX.removeClass(this.parentNode.parentNode, 'bx-panel-small-button-text-active')"
+                    id="bx_topmenu_btn_2"
+                    ><span class="bx-panel-small-button-icon bx-panel-performance-icon"></span
+                    ><span class="bx-panel-small-button-text">Отладка</span></a
+                  ><a href="javascript:void(0)" class="bx-panel-small-button-arrow" id="bx_topmenu_btn_2_menu"
+                    ><span class="bx-panel-small-button-arrow"></span></a></span></span></span
+            ><span class="bx-panel-button-separator"></span
+            ><span class="bx-panel-button-group" data-group-id="5"
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="(new BX.CAdminDialog({'content_url':'/bitrix/admin/short_uri_edit.php?lang=ru&amp;public=Y&amp;bxpublic=Y&amp;str_URI=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;site=s1&amp;back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&amp;siteTemplateId=midea','width':'770','height':'270'})).Show();BX.removeClass(this.parentNode.parentNode, 'bx-panel-small-button-text-active')"
+                    id="bx_topmenu_btn_3"
+                    ><span class="bx-panel-small-button-icon bx-panel-short-url-icon"></span
+                    ><span class="bx-panel-small-button-text">Короткий URL</span></a
+                  ><a href="javascript:void(0)" class="bx-panel-small-button-arrow" id="bx_topmenu_btn_3_menu"
+                    ><span class="bx-panel-small-button-arrow"></span></a></span></span
+              ><span class="bx-panel-break"></span
+              ><span class="bx-panel-small-button"
+                ><span class="bx-panel-small-button-inner"
+                  ><a
+                    href="javascript:void(0)"
+                    onclick="if (window.oBXSticker){window.oBXSticker.AddSticker();};BX.removeClass(this.parentNode.parentNode, 'bx-panel-small-button-text-active')"
+                    id="bx_topmenu_btn_4"
+                    ><span class="bx-panel-small-button-icon bx-panel-small-stickers-icon"></span
+                    ><span class="bx-panel-small-button-text">Стикеры</span></a
+                  ><a href="javascript:void(0)" class="bx-panel-small-button-arrow" id="bx_topmenu_btn_4_menu"
+                    ><span class="bx-panel-small-button-arrow"></span></a></span></span></span
+            ><span class="bx-panel-button-separator"></span
+            ><span class="bx-panel-button-group" data-group-id="6"
+              ><span class="bx-panel-button"
+                ><span class="bx-panel-button-inner"
+                  ><a
+                    href="/?add_new_site_sol=sol&amp;sessid=b9e579594b1d155fea1bd984a152d8f5"
+                    onclick=";BX.removeClass(this.parentNode.parentNode, 'bx-panel-button-icon-active');"
+                    id="bx_topmenu_btn_solutions_wizard"
+                    ><span class="bx-panel-button-icon bx-panel-install-solution-icon"></span></a
+                  ><a id="bx_topmenu_btn_solutions_wizard_menu" href="javascript:void(0)"
+                    ><span class="bx-panel-button-text"
+                      >Протестировать<span class="bx-panel-break"></span>новое решение&nbsp;<span
+                        class="bx-panel-button-arrow"></span></span></a></span></span
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="adm-informer"
+      id="admin-informer"
+      style="display: none; top: 48px; left: 316px"
+      onclick="return BX.adminInformer.OnInnerClick(event);">
+      <div class="adm-informer-header">Новые уведомления</div>
+      <div class="adm-informer-item adm-informer-item-red" style="display: block">
+        <div class="adm-informer-item-title">Автокомпозитный сайт</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-0">
+            Уникальная технология позволит ускорить скорость загрузки страниц вашего сайта.
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-0">
+            <a href="https://air-midea.com/bitrix/admin/composite.php?lang=ru">Включить АвтоКомпозит</a>
+          </div>
+        </div>
+      </div>
+      <div class="adm-informer-item adm-informer-item-green" style="display: block">
+        <div class="adm-informer-item-title">Оцените решение Маркетплейс</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-1">
+            Вы используете решение <b>Daichi: Midea</b> (daichi.midea).<br />Поделитесь своими впечатлениями.<br />
+            Что понравилось?<br />Есть ли замечания?<br />Ваш отзыв очень важен для нас!
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-1">
+            <a href="javascript:void(0)" onclick="hideMpAnswer(this, 'daichi.midea')" style="float: right !important; font-size: 0.8em !important"
+              >Скрыть</a
+            ><a
+              href="http://marketplace.1c-bitrix.ru/solutions/daichi.midea/#tab-rating-link"
+              target="_blank"
+              onclick="hideMpAnswer(this, 'daichi.midea')"
+              >Оставить отзыв</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="adm-informer-item adm-informer-item-green" style="display: block">
+        <div class="adm-informer-item-title">Оцените решение Маркетплейс</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-2">
+            Вы используете решение <b>Миграции для разработчиков</b> (sprint.migration).<br />Поделитесь своими впечатлениями.<br />
+            Что понравилось?<br />Есть ли замечания?<br />Ваш отзыв очень важен для нас!
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-2">
+            <a href="javascript:void(0)" onclick="hideMpAnswer(this, 'sprint.migration')" style="float: right !important; font-size: 0.8em !important"
+              >Скрыть</a
+            ><a
+              href="http://marketplace.1c-bitrix.ru/solutions/sprint.migration/#tab-rating-link"
+              target="_blank"
+              onclick="hideMpAnswer(this, 'sprint.migration')"
+              >Оставить отзыв</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="adm-informer-item adm-informer-item-peach" style="display: block">
+        <div class="adm-informer-item-title">Резервное копирование</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-3">
+            <div class="adm-informer-item-section">
+              <span class="adm-informer-item-l"> <span class="adm-informer-strong-text">Всего:</span> 4 ГБ </span>
+              <span class="adm-informer-item-r"> <span class="adm-informer-strong-text">Доступно:</span> 1 ГБ </span>
+            </div>
+            <div class="adm-informer-status-bar-block">
+              <div class="adm-informer-status-bar-indicator" style="width: 74%"></div>
+              <div class="adm-informer-status-bar-text">74%</div>
+            </div>
+            <span class="adm-informer-strong-text">Выполнялось: 78 дней назад.</span>
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-3">
+            <a href="https://air-midea.com/bitrix/admin/dump.php?lang=ru">Рекомендуется выполнить</a>
+          </div>
+        </div>
+      </div>
+      <div class="adm-informer-item adm-informer-item-blue" style="display: block">
+        <div class="adm-informer-item-title">Сканер безопасности</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-4">
+            <div class="adm-informer-item-section">
+              <span class="adm-informer-item-l">
+                <span>Сканирование выполнялось очень давно либо не выполнялось вовсе</span>
+              </span>
+            </div>
+
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-4">
+            <a href="https://air-midea.com/bitrix/admin/security_scanner.php?lang=ru">Перейти к сканированию</a>
+          </div>
+        </div>
+      </div>
+      <div class="adm-informer-item adm-informer-item-gray" style="display: none">
+        <div class="adm-informer-item-title">Обновления</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-5">
+            <span class="adm-informer-strong-text">Версия системы 22.500.600</span><br />Последнее обновление<br />12.05.2023 21:02:39
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-5">
+            <a href="https://air-midea.com/bitrix/admin/update_system.php?refresh=Y&lang=ru">Проверить обновления</a>
+          </div>
+        </div>
+      </div>
+      <div class="adm-informer-item adm-informer-item-blue" style="display: none">
+        <div class="adm-informer-item-title">Проактивная защита</div>
+        <div class="adm-informer-item-body">
+          <div class="adm-informer-item-html" id="adm-informer-item-html-6">
+            <div class="adm-informer-item-section">
+              <span class="adm-informer-item-l">
+                <span class="adm-informer-strong-text">Защита включена.<br /></span>
+                <span>Попыток вторжения не обнаружено</span>
+              </span>
+            </div>
+
+            <span class="adm-informer-icon"></span>
+          </div>
+          <div class="adm-informer-item-footer" id="adm-informer-item-footer-6">
+            <a href="https://air-midea.com/bitrix/admin/security_filter.php?lang=ru">Настроить защиту</a>
+          </div>
+        </div>
+      </div>
+      <a
+        href="javascript:void(0);"
+        class="adm-informer-footer adm-informer-footer-collapsed"
+        hidefocus="true"
+        id="adm-informer-footer"
+        onclick="return BX.adminInformer.ToggleExtra();"
+        >Показать все (7)
+      </a>
+      <span class="adm-informer-arrow"></span>
+    </div>
+
+    <div class="page serial">
+      <header class="header">
+        <a class="header__logo" href="/">
+          <svg class="icon header__logo-icon" aria-hidden="true">
+            <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <div class="header__wrapper">
+          <div class="header__top">
+            <div class="header__top-city">
+              <!--                <button type="button" class="button header__button-city button_select js-btn-cities">-->
+              <!--                                        -->
+              <!--                    <svg class="icon  button__icon " aria-hidden="true">-->
+              <!--                        <use xlink:href="--><!--#icon-chevron-down"></use>-->
+              <!--                    </svg>-->
+              <!--                </button>-->
+              <button class="header__top-nav-close">
+                <svg><use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-close"></use></svg>
+              </button>
+            </div>
+            <div class="header__nav">
+              <div class="app-nav">
+                <div class="app-nav__list">
+                  <a href="/about-brand/" class="app-nav__item">О бренде</a>
+
+                  <a href="/where-buy/" class="app-nav__item">Где купить</a>
+                  <div class="app-nav__item-list js-nav-list">
+                    <a href="/support/" class="button app-nav__item button_select">
+                      Поддержка
+                      <svg class="icon button__icon" aria-hidden="true">
+                        <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-chevron-down"></use>
+                      </svg>
+                    </a>
+                    <svg class="app-nav__svg-mob" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_373_113020)">
+                        <path
+                          d="M8 3.33325V12.6666"
+                          stroke="#212121"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="open" />
+                        <path d="M3.33301 8H12.6663" stroke="#212121" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_373_113020">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <div class="app-nav__links">
+                      <a href="/support/">Техническая поддержка</a>
+
+                      <a href="/support/marketing/">Маркетинговая поддержка</a>
+
+                      <a href="/support/services/">Сервисная поддержка</a>
+                    </div>
+                  </div>
+
+                  <a href="/news/" class="app-nav__item">Новости</a>
+
+                  <a href="/contacts/" class="app-nav__item">Контакты</a>
+                </div>
+              </div>
+              <a href="/partner/#form" class="button header__button-partner button_secondary">Стать партнером</a>
+            </div>
+            <!--<a href="tel:+7 (812) 000 00 00" class="header__phone">+7 (812) 000 00 00&nbsp;</a>-->
+          </div>
+          <div class="header__bottom">
+            <button type="button" class="button button_blue header__button-catalog js-toggle-burger">
+              <span>Каталог</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.75462 18.154L18.1173 5.79112" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M18.0635 18.1413L5.76267 5.84153" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="header__search">
+              <div data-url="/search/?q=" class="input-search js-vue-search-desktop" v-cloak>
+                <svg class="icon input-search__icon" @click="mobFocus">
+                  <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-search"></use>
+                </svg>
+                <input
+                  type="text"
+                  placeholder="Поиск по сериям"
+                  class="input-search__input"
+                  ref="input"
+                  :value="inputValue"
+                  @input="changeSearch"
+                  @focus="focusHandler"
+                  @keydown="submitForm" />
+                <button type="button" class="input-search__close" :class="{'input-search__close_active': showSearch}" @click="closeSearch">
+                  <svg class="icon input-search__close-icon" aria-hidden="true">
+                    <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-close"></use>
+                  </svg>
+                </button>
+                <div class="input-search__result" :class="{'input-search__result_active': showSearch}">
+                  <div class="input-search__result-wrapper"></div>
+                </div>
+              </div>
+            </div>
+            <a href="/partner/#form" class="button header__button-partner button_secondary">Стать партнером</a>
+            <button type="button" class="header__burger">
+              <svg class="icon header__burger-icon" aria-hidden="true">
+                <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <section class="header__search-result"></section>
+      </header>
+      <div class="burger-menu" aria-label="Меню сайта">
+        <div class="burger-menu__navigation">
+          <div class="burger-menu__list" role="menu">
+            <div class="burger-menu__list-link js-menu-title burger-menu__list-link--active" role="menuitem">Бытовые кондиционеры</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">Мульти-сплит-системы</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">Полупромышленные сплит-системы</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">VRF системы</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">Чиллеры</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">Фанкойлы</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">Компрессорно-конденсаторные блоки</div>
+            <div class="burger-menu__list-link js-menu-title" role="menuitem">Руфтопы</div>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Бытовые кондиционеры</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/" class="burger-menu__category-name">Настенные сплит-системы</a>
+            <a
+              href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные сплит-системы
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/on-off-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off сплит системы
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+            <a href="/catalog/bytovye-konditsionery/aksessuary/" class="burger-menu__category-name">Аксессуары</a>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/bytovye-konditsionery/mobilnye-konditsionery/" class="burger-menu__category-name">Мобильные кондиционеры</a>
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Мульти-сплит-системы</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/multisplit-sistemy/naruzhnye-bloki/" class="burger-menu__category-name">Наружные блоки</a>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/multisplit-sistemy/vnutrennie-bloki/" class="burger-menu__category-name">Внутренние блоки</a>
+            <a
+              href="/catalog/multisplit-sistemy/vnutrennie-bloki/nastennye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Настенные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/multisplit-sistemy/vnutrennie-bloki/kassetnye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Кассетные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/multisplit-sistemy/vnutrennie-bloki/kanalnye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Канальные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Полупромышленные сплит-системы</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/polupromyshlennye-split-sistemy/kassetnye/" class="burger-menu__category-name">Кассетные сплит-системы</a>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/kassetnye/invertornye-kasettnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные кассетные сплит-системы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kassetnye/invertornye-kasettnye-split-sistemy/kompaktnye/"> Компактные </a>
+              </li>
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kassetnye/invertornye-kasettnye-split-sistemy/polnorazmernye/"> Полноразмерные </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/kassetnye/on-off-kassetnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off кассетные сплит системы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kassetnye/on-off-kassetnye-split-sistemy/kompaktnye/"> Компактные </a>
+              </li>
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kassetnye/on-off-kassetnye-split-sistemy/polnorazmernye/"> Полноразмерные </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/polupromyshlennye-split-sistemy/kanalnye/" class="burger-menu__category-name">Канальные сплит-системы</a>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/kanalnye/invertornye-kanalnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные канальные сплит-системы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kanalnye/invertornye-kanalnye-split-sistemy/srednenapornye/"> Средненапорные </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/kanalnye/on-off-kanalnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off канальные сплит системы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kanalnye/on-off-kanalnye-split-sistemy/srednenapornye/"> Средненапорные </a>
+              </li>
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kanalnye/on-off-kanalnye-split-sistemy/vysokonapornye/"> Высоконапорные </a>
+              </li>
+              <li>
+                <a href="/catalog/polupromyshlennye-split-sistemy/kanalnye/on-off-kanalnye-split-sistemy/vysokoy-proizvoditelnosti/">
+                  Высокой производительности
+                </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/polupromyshlennye-split-sistemy/napolnopotolochnye/" class="burger-menu__category-name"
+              >Напольно-потолочные сплит-системы</a
+            >
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/napolnopotolochnye/invertornye-napolno-potolochnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные напольно-потолочные сплит-системы
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/napolnopotolochnye/on-off-napolno-potolochnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/off напольно-потолочные сплит-системы
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+            <a href="/catalog/polupromyshlennye-split-sistemy/kolonnye-split-sistemy/" class="burger-menu__category-name">Колонные сплит-системы</a>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/kolonnye-split-sistemy/invertornye-kolonnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные колонные сплит-системы
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/polupromyshlennye-split-sistemy/kolonnye-split-sistemy/on-off-kolonnye-split-sistemy/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off колонные сплит-системы
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>VRF системы</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/vrf-sistemy/naruzhnye-bloki/" class="burger-menu__category-name">Наружные блоки</a>
+            <a href="/catalog/vrf-sistemy/naruzhnye-bloki/mini/" class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Мини
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/vrf-sistemy/naruzhnye-bloki/mini/atom/"> Серия ATOM </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/vrf-sistemy/naruzhnye-bloki/polnorazmernye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Полноразмерные
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/vrf-sistemy/naruzhnye-bloki/polnorazmernye/s-teplovym-nasosom/"> С тепловым насосом </a>
+              </li>
+              <li>
+                <a href="/catalog/vrf-sistemy/naruzhnye-bloki/polnorazmernye/s-rekuperatsiey-tepla/"> С рекуперацией тепла </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/vrf-sistemy/vnutrennie-bloki/" class="burger-menu__category-name">Внутренние блоки</a>
+            <a href="/catalog/vrf-sistemy/vnutrennie-bloki/nastennye/" class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Настенные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kassetnye/" class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Кассетные
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kassetnye/odnopotochnye/"> Однопоточные </a>
+              </li>
+              <li>
+                <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kassetnye/dvukhpotochnye/"> Двухпоточные </a>
+              </li>
+              <li>
+                <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kassetnye/chetyrekhpotochnye/"> Четырехпоточные </a>
+              </li>
+            </ul>
+            <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kanalnye/" class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Канальные
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kanalnye/srednenapornye/"> Средненапорные </a>
+              </li>
+              <li>
+                <a href="/catalog/vrf-sistemy/vnutrennie-bloki/kanalnye/vysokonapornye/"> Высоконапорные </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/vrf-sistemy/vnutrennie-bloki/napolnopotolochnye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Напольно-потолочные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/vrf-sistemy/moduli-dlya-freonovykh-sektsiy/" class="burger-menu__category-name">Модули для фреоновых секций</a>
+            <span class="hr"></span>
+            <a href="/catalog/vrf-sistemy/sistemy-upravleniya/" class="burger-menu__category-name">Системы управления</a>
+            <span class="hr"></span>
+            <a href="/catalog/vrf-sistemy/aksessuary/" class="burger-menu__category-name">Аксессуары</a>
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Чиллеры</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/chillery/s-vozdushnym-okhlazhdeniem-kondensatora/" class="burger-menu__category-name"
+              >С воздушным охлаждением конденсатора</a
+            >
+            <a
+              href="/catalog/chillery/s-vozdushnym-okhlazhdeniem-kondensatora/mini-chillery/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Мини-чиллеры
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/chillery/s-vozdushnym-okhlazhdeniem-kondensatora/king/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              King
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/chillery/s-vozdushnym-okhlazhdeniem-kondensatora/modulnye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Модульные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/chillery/s-vozdushnym-okhlazhdeniem-kondensatora/monoblochnye/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Моноблочные
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/chillery/s-vodyanym-okhlazhdeniem-kondensatory/" class="burger-menu__category-name"
+              >С водяным охлаждением конденсаторы</a
+            >
+            <a
+              href="/catalog/chillery/s-vodyanym-okhlazhdeniem-kondensatory/modulnye-na-baze-spiralnykh-kompressorov/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Модульные на базе спиральных компрессоров
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/chillery/s-vodyanym-okhlazhdeniem-kondensatory/na-baze-vintorykh-kompressorov/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              На базе винторых компрессоров
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <a
+              href="/catalog/chillery/s-vodyanym-okhlazhdeniem-kondensatory/na-baze-tsentrobezhnykh-kompressorov/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              На базе центробежных компрессоров
+            </a>
+            <ul class="list burger-menu__links"></ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/chillery/s-frikulingom/" class="burger-menu__category-name">С фрикулингом</a>
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Фанкойлы</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/fankoyly/nastennye/" class="burger-menu__category-name">Настенные фанкойлы</a>
+            <a href="/catalog/fankoyly/nastennye/invertornye-fankoyly/" class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные настенные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/nastennye/invertornye-fankoyly/dvukhtrubnye/"> Инверторные двухтрубные настенные фанкойлы </a>
+              </li>
+            </ul>
+            <a href="/catalog/fankoyly/nastennye/on-off-fankoyly/" class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off настенные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/nastennye/on-off-fankoyly/dvukhtrubnye/"> On/off двухтрубные настенные фанкойлы </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+            <a href="/catalog/fankoyly/kanalnye/" class="burger-menu__category-name">Канальные фанкойлы</a>
+            <a
+              href="/catalog/fankoyly/kanalnye/invertornye-kanalnye-fankoyly/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные канальные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/kanalnye/invertornye-kanalnye-fankoyly/dvukhtrubnye/"> Инверторные двухтрубные канальные фанкойлы </a>
+              </li>
+              <li>
+                <a href="/catalog/fankoyly/kanalnye/invertornye-kanalnye-fankoyly/chetyrekhtrubnye/">
+                  Инверторные четырехтрубные канальные фанкойлы
+                </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/fankoyly/kanalnye/on-off-kanalnye-fankoyly/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off канальные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/kanalnye/on-off-kanalnye-fankoyly/dvukhtrubnye/"> On/off двухтрубные канальные фанкойлы </a>
+              </li>
+              <li>
+                <a href="/catalog/fankoyly/kanalnye/on-off-kanalnye-fankoyly/chetyrekhtrubnye/"> On/off четырехтрубные канальные фанкойлы </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/fankoyly/kassetnye/" class="burger-menu__category-name">Кассетные фанкойлы</a>
+            <a
+              href="/catalog/fankoyly/kassetnye/invertornye-kassetnye-fankoyly/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные кассетные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/kassetnye/invertornye-kassetnye-fankoyly/invertornye-dvukhtrubnye-fankoyly/">
+                  Инверторные двухтрубные фанкойлы
+                </a>
+              </li>
+              <li>
+                <a href="/catalog/fankoyly/kassetnye/invertornye-kassetnye-fankoyly/invertornye-chetyrekhtrubnye-fankoyly/">
+                  Инверторные четырехтрубные фанкойлы
+                </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/fankoyly/kassetnye/on-off-kassetnye-fankoyly/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off кассетные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/kassetnye/on-off-kassetnye-fankoyly/on-off-dvukhtrubnye-fankoyly/"> On/Off двухтрубные фанкойлы </a>
+              </li>
+              <li>
+                <a href="/catalog/fankoyly/kassetnye/on-off-kassetnye-fankoyly/on-off-chetyrekhtrubnye-fankoyly/"> On/Off четырехтрубные фанкойлы </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+          </div>
+          <div class="burger-menu__column">
+            <a href="/catalog/fankoyly/napolnopotolochnye/" class="burger-menu__category-name">Напольно-потолочные фанкойлы</a>
+            <a
+              href="/catalog/fankoyly/napolnopotolochnye/invertornye-napolno-potolochnye-fankoyly/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              Инверторные напольно-потолочные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a
+                  href="/catalog/fankoyly/napolnopotolochnye/invertornye-napolno-potolochnye-fankoyly/dvukhtrubnye-invertornye-napolno-potolochnye-fankoyly/">
+                  Инверторные двухтрубные напольно-потолочные фанкойлы
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/catalog/fankoyly/napolnopotolochnye/invertornye-napolno-potolochnye-fankoyly/chetyrekhtrubnye-invertornye-napolno-potolochnye-fankoyly/">
+                  Инверторные четырехтрубные напольно-потолочные фанкойлы
+                </a>
+              </li>
+            </ul>
+            <a
+              href="/catalog/fankoyly/napolnopotolochnye/on-off-napolno-potolochnye-fankoyly/"
+              class="burger-menu__sub-category-name burger-menu__sub-category-name--data">
+              On/Off напольно-потолочные фанкойлы
+            </a>
+            <ul class="list burger-menu__links">
+              <li>
+                <a href="/catalog/fankoyly/napolnopotolochnye/on-off-napolno-potolochnye-fankoyly/dvukhtrubnye-on-off-napolno-potolochnye-fankoyly/">
+                  On/Off двухтрубные напольно-потолочные фанкойлы
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/catalog/fankoyly/napolnopotolochnye/on-off-napolno-potolochnye-fankoyly/on-off-chetyrekhtrubnye-napolno-potolochnye-fankoyly/">
+                  On/Off четырехтрубные напольно-потолочные фанкойлы
+                </a>
+              </li>
+            </ul>
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Компрессорно-конденсаторные блоки</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/kompressorno-kondensatornyy-blok/kompressorno-kondensatornyy-blok/" class="burger-menu__category-name"
+              >Компрессорно-конденсаторный блок</a
+            >
+            <span class="hr"></span>
+          </div>
+        </div>
+        <div class="burger-menu__item js-burger-content">
+          <button class="burger-menu__back js-burger-back">
+            <img src="https://air-midea.com/local/assets/img/sprites/arrow_back.svg" loading="lazy" alt="" />
+            <span>Руфтопы</span>
+          </button>
+          <div class="burger-menu__column">
+            <a href="/catalog/ruftopy/ruftopy/" class="burger-menu__category-name">Руфтопы</a>
+            <span class="hr"></span>
+          </div>
+        </div>
+      </div>
+      <main class="page__content">
+        <div class="mt-24 mt-sm-18">
+          <div class="page-header page-header_bg">
+            <div class="page-header__container container">
+              <div class="page-header__breadcrumb">
+                <nav class="breadcrumb">
+                  <a href="/" class="breadcrumb__item"
+                    >Главная
+                    <svg class="icon">
+                      <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-arrow"></use>
+                    </svg> </a
+                  ><a href="/catalog/" class="breadcrumb__item"
+                    >Каталог
+                    <svg class="icon">
+                      <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-arrow"></use>
+                    </svg> </a
+                  ><a href="/catalog/bytovye-konditsionery/" class="breadcrumb__item"
+                    >Бытовые кондиционеры
+                    <svg class="icon">
+                      <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-arrow"></use>
+                    </svg> </a
+                  ><a href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/" class="breadcrumb__item"
+                    >Настенные сплит-системы
+                    <svg class="icon">
+                      <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-arrow"></use>
+                    </svg> </a
+                  ><a
+                    href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/"
+                    class="breadcrumb__item breadcrumb__item_current"
+                    >Инверторные сплит-системы
+                  </a>
+                </nav>
+              </div>
+              <h1 class="page-header__title h1 page-header__title_text">Инверторные сплит-системы</h1>
+              <p class="header-with-bg__text text-body header-with-bg__text">Комфорт и ничего лишнего</p>
+            </div>
+            <picture class="picture page-header__picture">
+              <source srcset="https://air-midea.com/local/assets/tmp/bg-catalog/bgsub-mob.webp 1x, 2x" media="(max-width: 768px)" />
+              <source srcset="https://air-midea.com/local/assets/tmp/bg-catalog/bgsub.webp 1x, 2x" media="(min-width: 769px)" />
+              <img loading="" class="picture__image page-header__image" src="https://air-midea.com/local/assets/tmp/bg-catalog/bgsub.webp" alt="" />
+            </picture>
+          </div>
+        </div>
+
+        <div class="container subcategory__list">
+          <div class="product-card">
+            <div class="swiper product-card__top js-product-card">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/2b7/3z2ssyvpwgtu6hqf43d2tkeo7p475fod.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/2b7/3z2ssyvpwgtu6hqf43d2tkeo7p475fod.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/f5f/q2qcyuyifr43ks87wzb81czmnv45o7ly.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/f5f/q2qcyuyifr43ks87wzb81czmnv45o7ly.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/ef6/jupicqeiwhpsiwxs2l1b5qscpnlgya0h.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/ef6/jupicqeiwhpsiwxs2l1b5qscpnlgya0h.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/f95/5cioxy9e7iiqau5jai67ps1pxgsakz49.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/f95/5cioxy9e7iiqau5jai67ps1pxgsakz49.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+              </div>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/gaia/"
+                class="swiper-pagination product-card__pagination">
+              </a>
+            </div>
+            <div
+              class="product-card__text"
+              onclick="location.href='/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/gaia/'"
+              style="cursor: pointer">
+              <h3 class="text-body text-body_medium product-card__title">Gaia</h3>
+              <ul class="list product-card__list text-small">
+                <li>Приточный диффузор свежего атмосферного воздуха</li>
+                <li>Встроенный Wi-Fi-модуль</li>
+                <li>Энергоэффективность класса &quot;А+++&quot; (SEER до 9,2)</li>
+                <li>H13 HEPA-фильтр</li>
+                <li>Жалюзи с технологией Breezeless™</li>
+                <li>Бесшумная работа: уровень шума от 21,5 дБ(А)</li>
+              </ul>
+
+              <p class="product-card__price text-body text-body-small">от <b>78990</b> р.</p>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/gaia/"
+                class="button button_blue product-card__button"
+                >Перейти к описанию</a
+              >
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="swiper product-card__top js-product-card">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/429/u7126gohjg6gle2b19aniww7wlagpgm0.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/429/u7126gohjg6gle2b19aniww7wlagpgm0.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/8d2/2xx0j014lxonhvgyenjkcg0mj5hkagal.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/8d2/2xx0j014lxonhvgyenjkcg0mj5hkagal.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/5b8/y0w1x1lzz5dl378ud8p1c6s263cwviec.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/5b8/y0w1x1lzz5dl378ud8p1c6s263cwviec.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/80c/q2l4u2lm1k8sv9aty6lf043vkszltfh3.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/80c/q2l4u2lm1k8sv9aty6lf043vkszltfh3.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+              </div>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/breezeless/"
+                class="swiper-pagination product-card__pagination">
+              </a>
+            </div>
+            <div
+              class="product-card__text"
+              onclick="location.href='/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/breezeless/'"
+              style="cursor: pointer">
+              <h3 class="text-body text-body_medium product-card__title">BreezeLess</h3>
+              <ul class="list product-card__list text-small">
+                <li>Перфорированные жалюзи с технологией Breezeless™</li>
+                <li>FULL DC-инверторные технологии</li>
+                <li>Энергоэффективность класса &quot;А+++&quot; (SEER до 8,5)</li>
+                <li>Охлаждение и обогрев при температуре до -15°C</li>
+                <li>Комбинированный воздушный фильтр</li>
+                <li>12-ти скоростной вентилятор внутреннего блока</li>
+              </ul>
+
+              <p class="product-card__price text-body text-body-small">от <b>77990</b> р.</p>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/breezeless/"
+                class="button button_blue product-card__button"
+                >Перейти к описанию</a
+              >
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="swiper product-card__top js-product-card">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/299/vegs22mvcyajri56kq7myd8w4bk78kpd.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/299/vegs22mvcyajri56kq7myd8w4bk78kpd.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/30c/zv3wx0530pphqrnr4fonmaww51hrz2z2.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/30c/zv3wx0530pphqrnr4fonmaww51hrz2z2.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/214/wcbxmx9lq5415bqubhyt6q204e3z5zj3.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/214/wcbxmx9lq5415bqubhyt6q204e3z5zj3.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/2d4/3e91pfk3m0pgmdh4txh1yt50m7zg7akc.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/2d4/3e91pfk3m0pgmdh4txh1yt50m7zg7akc.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+              </div>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/persona-inverter/"
+                class="swiper-pagination product-card__pagination">
+              </a>
+            </div>
+            <div
+              class="product-card__text"
+              onclick="location.href='/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/persona-inverter/'"
+              style="cursor: pointer">
+              <h3 class="text-body text-body_medium product-card__title">Persona Inverter</h3>
+              <ul class="list product-card__list text-small">
+                <li>Дизайнерская черная зеркальная панель</li>
+                <li>Инверторные технологии для экономии электроэнергии</li>
+                <li>Экологически безопасный хладагент R-32</li>
+                <li>Фильтр высокой плотности и фильтр холодного катализа</li>
+                <li>Охлаждение и обогрев при низкой наружной температуре</li>
+              </ul>
+
+              <p class="product-card__price text-body text-body-small">от <b>45390</b> р.</p>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/persona-inverter/"
+                class="button button_blue product-card__button"
+                >Перейти к описанию</a
+              >
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="swiper product-card__top js-product-card">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/9e6/7npjqvjdfdwd8xj2jvoxd9l9xhncvgzr.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/9e6/7npjqvjdfdwd8xj2jvoxd9l9xhncvgzr.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/221/azlsgpt3xlzdqf8adobfcv0xmfyvnnj9.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/221/azlsgpt3xlzdqf8adobfcv0xmfyvnnj9.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/b46/9eri93r22dx1wsqva3y7edtyo90wj1iw.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/b46/9eri93r22dx1wsqva3y7edtyo90wj1iw.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/2d4/3e91pfk3m0pgmdh4txh1yt50m7zg7akc.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/2d4/3e91pfk3m0pgmdh4txh1yt50m7zg7akc.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+              </div>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/paramount-inverter/"
+                class="swiper-pagination product-card__pagination">
+              </a>
+            </div>
+            <div
+              class="product-card__text"
+              onclick="location.href='/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/paramount-inverter/'"
+              style="cursor: pointer">
+              <h3 class="text-body text-body_medium product-card__title">Paramount inverter</h3>
+              <ul class="list product-card__list text-small">
+                <li>Сезонная энергоэффективность A++ (SEER 7,0)</li>
+                <li>Экологически безопасный хладагент R-32</li>
+                <li>Широкий диапазон рабочих температур — от -15 до 50 °С</li>
+                <li>Объёмный воздушный поток</li>
+                <li>Режим энергосбережения i-ECO</li>
+                <li>Работа при нестабильном электропитании</li>
+              </ul>
+
+              <p class="product-card__price text-body text-body-small">от <b>39990</b> р.</p>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/paramount-inverter/"
+                class="button button_blue product-card__button"
+                >Перейти к описанию</a
+              >
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="swiper product-card__top js-product-card">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/702/r05f2zh29vduv14kzaf39sj5k6yqog9n.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/702/r05f2zh29vduv14kzaf39sj5k6yqog9n.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/8d3/kz7dzu7bfqkkp88pqvcnbl219gup1tmo.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/8d3/kz7dzu7bfqkkp88pqvcnbl219gup1tmo.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/441/hk63t07vxtlr8x1pfal076rt8ttw4y8e.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/441/hk63t07vxtlr8x1pfal076rt8ttw4y8e.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="picture">
+                    <source srcset="https://air-midea.com/upload/iblock/2d4/3e91pfk3m0pgmdh4txh1yt50m7zg7akc.jpg 1x, 2x" media="(min-width: 769px)" />
+                    <img
+                      loading="lazy"
+                      class="picture__image"
+                      src="https://air-midea.com/upload/iblock/2d4/3e91pfk3m0pgmdh4txh1yt50m7zg7akc.jpg"
+                      alt="" />
+                  </picture>
+                </div>
+              </div>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/primary-inverter/"
+                class="swiper-pagination product-card__pagination">
+              </a>
+            </div>
+            <div
+              class="product-card__text"
+              onclick="location.href='/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/primary-inverter/'"
+              style="cursor: pointer">
+              <h3 class="text-body text-body_medium product-card__title">Primary Inverter</h3>
+              <ul class="list product-card__list text-small">
+                <li>Класс энергоэффективности &quot;А++&quot;</li>
+                <li>Работа на охлаждение и обогрев до -15°C</li>
+                <li>Режим экономии электроэнергии i-ECO</li>
+                <li>Низкий уровень шума от 21,5 дБ(А)</li>
+                <li>Самоочистка теплообменника Self-clean™</li>
+              </ul>
+
+              <p class="product-card__price text-body text-body-small">от <b>40090</b> р.</p>
+              <a
+                href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/primary-inverter/"
+                class="button button_blue product-card__button"
+                >Перейти к описанию</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div id="download" class="container js-anchors-section">
+          <div class="mb-96 mt-96 mb-sm-56 mt-sm-56">
+            <div class="catalog-list">
+              <h2 class="catalog-list__title h3">Каталоги для скачивания</h2>
+              <div class="catalog-list__inner">
+                <a
+                  href="https://air-midea.com/upload/iblock/b6a/fl8v2ebum3uqdkvfr0qyffpdbn0nntvn.pdf"
+                  class="card-link card-link_color_"
+                  target="_blank">
+                  <img
+                    src="https://air-midea.com/local/assets/img/sprites/download_gray.svg"
+                    alt="95_Уникальные технологии в новых сплит-системах Midea.pdf"
+                    class="icon icon_64x64 card-link__icon" />
+                  <div class="card-link__info">
+                    <div class="card-link__title">95_Уникальные технологии в новых сплит-системах Midea.pdf</div>
+
+                    <div class="card-link__text">Скачать pdf, 246 КБ</div>
+                  </div>
+                </a>
+                <a
+                  href="https://air-midea.com/upload/iblock/3d3/gnwls90fcid1jt6bi9r7mpj2yreda217.pdf"
+                  class="card-link card-link_color_"
+                  target="_blank">
+                  <img
+                    src="https://air-midea.com/local/assets/img/sprites/download_gray.svg"
+                    alt="Blanc Технический каталог DM19-01.01.07 .pdf"
+                    class="icon icon_64x64 card-link__icon" />
+                  <div class="card-link__info">
+                    <div class="card-link__title">Blanc Технический каталог DM19-01.01.07 .pdf</div>
+
+                    <div class="card-link__text">Скачать pdf, 3 МБ</div>
+                  </div>
+                </a>
+                <a
+                  href="https://air-midea.com/upload/iblock/5b8/z9mfko7agtljxionsgvmc77zxgp82ghs.zip"
+                  class="card-link card-link_color_"
+                  target="_blank">
+                  <img
+                    src="https://air-midea.com/local/assets/img/sprites/download_gray.svg"
+                    alt="Daichi Catalogs_XML.zip"
+                    class="icon icon_64x64 card-link__icon" />
+                  <div class="card-link__info">
+                    <div class="card-link__title">Daichi Catalogs_XML.zip</div>
+
+                    <div class="card-link__text">Скачать zip, 404 КБ</div>
+                  </div>
+                </a>
+                <a href="/support/programs/" class="card-link card-link_color_blue">
+                  <img src="https://air-midea.com/local/assets/img/sprites/settings_blue.svg" alt="" class="icon icon_64x64 card-link__icon" />
+                  <div class="card-link__info">
+                    <div class="card-link__title">Программы подбора</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-96 mt-96 mb-sm-56 mt-sm-56">
+          <section class="slider-objects">
+            <div class="container">
+              <h2 class="slider-objects__title h2">Реализованные объекты</h2>
+              <div class="slider-objects__main swiper">
+                <div class="swiper-wrapper slider-objects__inner">
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8491">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/4fc/5zyfwrle89gjc18dyeaack4uuplqmnxz.jpg 1x,
+                            https://air-midea.com/upload/iblock/4fc/5zyfwrle89gjc18dyeaack4uuplqmnxz.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/4fc/5zyfwrle89gjc18dyeaack4uuplqmnxz.jpg 1x,
+                            https://air-midea.com/upload/iblock/4fc/5zyfwrle89gjc18dyeaack4uuplqmnxz.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/4fc/5zyfwrle89gjc18dyeaack4uuplqmnxz.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Санаторий «Восток»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=hotels" class="card-object__tag"> Гостиницы </a>
+                      </div>
+
+                      <a href="/about-brand/projects/sanatoriy-vostok/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8490">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/e59/2bn7nujzt0szv81v6uisoby6co8y7rux.jpg 1x,
+                            https://air-midea.com/upload/iblock/e59/2bn7nujzt0szv81v6uisoby6co8y7rux.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/e59/2bn7nujzt0szv81v6uisoby6co8y7rux.jpg 1x,
+                            https://air-midea.com/upload/iblock/e59/2bn7nujzt0szv81v6uisoby6co8y7rux.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/e59/2bn7nujzt0szv81v6uisoby6co8y7rux.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">БЦ «Заневский»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=shopping-malls" class="card-object__tag"> Торгово-развлекательные центры </a>
+                      </div>
+
+                      <a href="/about-brand/projects/bts-zanevskiy/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8489">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/622/fxe7rbxm6bhk01ygocal102s8hqs3k2h.jpg 1x,
+                            https://air-midea.com/upload/iblock/622/fxe7rbxm6bhk01ygocal102s8hqs3k2h.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/622/fxe7rbxm6bhk01ygocal102s8hqs3k2h.jpg 1x,
+                            https://air-midea.com/upload/iblock/622/fxe7rbxm6bhk01ygocal102s8hqs3k2h.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/622/fxe7rbxm6bhk01ygocal102s8hqs3k2h.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Инновационный культурный центр</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=objects-of-culture-and-art" class="card-object__tag">
+                          Объекты культуры и искусства
+                        </a>
+                      </div>
+
+                      <a href="/about-brand/projects/innovatsionnyy-kulturnyy-tsentr/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8488">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/7f7/z1sgrsjuw9ojyhcwakvug7r8skfr4nvm.jpg 1x,
+                            https://air-midea.com/upload/iblock/7f7/z1sgrsjuw9ojyhcwakvug7r8skfr4nvm.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/7f7/z1sgrsjuw9ojyhcwakvug7r8skfr4nvm.jpg 1x,
+                            https://air-midea.com/upload/iblock/7f7/z1sgrsjuw9ojyhcwakvug7r8skfr4nvm.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/7f7/z1sgrsjuw9ojyhcwakvug7r8skfr4nvm.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">ТРЦ «Бутово Молл»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=shopping-malls" class="card-object__tag"> Торгово-развлекательные центры </a>
+                      </div>
+
+                      <a href="/about-brand/projects/trts-butovo-moll/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8487">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/d27/9bvgsce7i7ii8wlshvfsxi54acbgtkne.jpg 1x,
+                            https://air-midea.com/upload/iblock/d27/9bvgsce7i7ii8wlshvfsxi54acbgtkne.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/d27/9bvgsce7i7ii8wlshvfsxi54acbgtkne.jpg 1x,
+                            https://air-midea.com/upload/iblock/d27/9bvgsce7i7ii8wlshvfsxi54acbgtkne.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/d27/9bvgsce7i7ii8wlshvfsxi54acbgtkne.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Зимний дворец</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=objects-of-culture-and-art" class="card-object__tag">
+                          Объекты культуры и искусства
+                        </a>
+                      </div>
+
+                      <a href="/about-brand/projects/zimniy-dvorets/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8486">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/cbe/djuvbwb5au94u29nx6olo1qzm47beonf.jpg 1x,
+                            https://air-midea.com/upload/iblock/cbe/djuvbwb5au94u29nx6olo1qzm47beonf.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/cbe/djuvbwb5au94u29nx6olo1qzm47beonf.jpg 1x,
+                            https://air-midea.com/upload/iblock/cbe/djuvbwb5au94u29nx6olo1qzm47beonf.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/cbe/djuvbwb5au94u29nx6olo1qzm47beonf.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Федеральная служба безопасности</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=offices" class="card-object__tag"> Бизнес-центры и офисные здания </a>
+                      </div>
+
+                      <a href="/about-brand/projects/federalnaya-sluzhba-bezopasnosti/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8485">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/b1f/l987grafr6a4eut100r391zxfd24e82u.jpg 1x,
+                            https://air-midea.com/upload/iblock/b1f/l987grafr6a4eut100r391zxfd24e82u.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/b1f/l987grafr6a4eut100r391zxfd24e82u.jpg 1x,
+                            https://air-midea.com/upload/iblock/b1f/l987grafr6a4eut100r391zxfd24e82u.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/b1f/l987grafr6a4eut100r391zxfd24e82u.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Национальный спортивный комплекс</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/natsionalnyy-sportivnyy-kompleks/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8484">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/ca0/z7omnd0pisfzezi9c8163z6vdvaaj66i.jpg 1x,
+                            https://air-midea.com/upload/iblock/ca0/z7omnd0pisfzezi9c8163z6vdvaaj66i.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/ca0/z7omnd0pisfzezi9c8163z6vdvaaj66i.jpg 1x,
+                            https://air-midea.com/upload/iblock/ca0/z7omnd0pisfzezi9c8163z6vdvaaj66i.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/ca0/z7omnd0pisfzezi9c8163z6vdvaaj66i.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Театр &quot;Наций&quot;</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=objects-of-culture-and-art" class="card-object__tag">
+                          Объекты культуры и искусства
+                        </a>
+                      </div>
+
+                      <a href="/about-brand/projects/teatr-natsiy/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8483">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/7a5/nz3ol4ohathhk8r9bt8o94fq0tb2n6nc.jpg 1x,
+                            https://air-midea.com/upload/iblock/7a5/nz3ol4ohathhk8r9bt8o94fq0tb2n6nc.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/7a5/nz3ol4ohathhk8r9bt8o94fq0tb2n6nc.jpg 1x,
+                            https://air-midea.com/upload/iblock/7a5/nz3ol4ohathhk8r9bt8o94fq0tb2n6nc.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/7a5/nz3ol4ohathhk8r9bt8o94fq0tb2n6nc.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Стадион «Калининград»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/stadion-kaliningrad/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8482">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/3f0/1knxi0na5a2ep9ygowlu28pivcj0kok5.jpg 1x,
+                            https://air-midea.com/upload/iblock/3f0/1knxi0na5a2ep9ygowlu28pivcj0kok5.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/3f0/1knxi0na5a2ep9ygowlu28pivcj0kok5.jpg 1x,
+                            https://air-midea.com/upload/iblock/3f0/1knxi0na5a2ep9ygowlu28pivcj0kok5.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/3f0/1knxi0na5a2ep9ygowlu28pivcj0kok5.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">«Екатеринбург Арена»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/ekaterinburg-arena/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8481">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/d88/lc4pmij0gazaa0itf6ue6stgwm93nhlh.jpg 1x,
+                            https://air-midea.com/upload/iblock/d88/lc4pmij0gazaa0itf6ue6stgwm93nhlh.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/d88/lc4pmij0gazaa0itf6ue6stgwm93nhlh.jpg 1x,
+                            https://air-midea.com/upload/iblock/d88/lc4pmij0gazaa0itf6ue6stgwm93nhlh.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/d88/lc4pmij0gazaa0itf6ue6stgwm93nhlh.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Стадион «Нижний Новгород»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/stadion-nizhniy-novgorod/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8480">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/6df/8zovhw1dw5akvb0yzirzun7ok1jr7azx.jpg 1x,
+                            https://air-midea.com/upload/iblock/6df/8zovhw1dw5akvb0yzirzun7ok1jr7azx.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/6df/8zovhw1dw5akvb0yzirzun7ok1jr7azx.jpg 1x,
+                            https://air-midea.com/upload/iblock/6df/8zovhw1dw5akvb0yzirzun7ok1jr7azx.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/6df/8zovhw1dw5akvb0yzirzun7ok1jr7azx.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">«Космос Арена»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/kosmos-arena/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8479">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/65b/r3sbd299j1i1uis8m7c9i9ahqamm9fre.jpg 1x,
+                            https://air-midea.com/upload/iblock/65b/r3sbd299j1i1uis8m7c9i9ahqamm9fre.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/65b/r3sbd299j1i1uis8m7c9i9ahqamm9fre.jpg 1x,
+                            https://air-midea.com/upload/iblock/65b/r3sbd299j1i1uis8m7c9i9ahqamm9fre.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/65b/r3sbd299j1i1uis8m7c9i9ahqamm9fre.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">«Газпром Арена» на Крестовском острове</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/gazprom-arena-na-krestovskom-ostrove/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8478">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/616/onv76ajmtbgzevxnfktc8p11zfmbvdvy.jpg 1x,
+                            https://air-midea.com/upload/iblock/616/onv76ajmtbgzevxnfktc8p11zfmbvdvy.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/616/onv76ajmtbgzevxnfktc8p11zfmbvdvy.jpg 1x,
+                            https://air-midea.com/upload/iblock/616/onv76ajmtbgzevxnfktc8p11zfmbvdvy.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/616/onv76ajmtbgzevxnfktc8p11zfmbvdvy.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">«Волгоград Арена»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/volgograd-arena/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_8477">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/2e5/bxw50olku03j8eikgdsxxkkdbfbaisnk.jpg 1x,
+                            https://air-midea.com/upload/iblock/2e5/bxw50olku03j8eikgdsxxkkdbfbaisnk.jpg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/2e5/bxw50olku03j8eikgdsxxkkdbfbaisnk.jpg 1x,
+                            https://air-midea.com/upload/iblock/2e5/bxw50olku03j8eikgdsxxkkdbfbaisnk.jpg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/2e5/bxw50olku03j8eikgdsxxkkdbfbaisnk.jpg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Стадион «Лужники»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/stadion-luzhniki/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-objects__slide" id="bx_3218110189_2831">
+                    <div class="card-object">
+                      <picture class="picture card-object__picture">
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/205/14kr9y6q15ojaeyvke0hrb9s0qklu1u6.jpeg 1x,
+                            https://air-midea.com/upload/iblock/205/14kr9y6q15ojaeyvke0hrb9s0qklu1u6.jpeg 2x
+                          "
+                          media="(max-width: 768px)" />
+                        <source
+                          srcset="
+                            https://air-midea.com/upload/iblock/205/14kr9y6q15ojaeyvke0hrb9s0qklu1u6.jpeg 1x,
+                            https://air-midea.com/upload/iblock/205/14kr9y6q15ojaeyvke0hrb9s0qklu1u6.jpeg 2x
+                          "
+                          media="(min-width: 769px)" />
+                        <img
+                          class="picture__image card-object__image"
+                          src="https://air-midea.com/upload/iblock/205/14kr9y6q15ojaeyvke0hrb9s0qklu1u6.jpeg"
+                          alt="" />
+                      </picture>
+                      <div class="card-object__title">Стадион «ВТБ Арена»</div>
+                      <div class="card-object__tags">
+                        <a href="/about-brand/projects/?typeobject=sport" class="card-object__tag"> Спортивные объекты </a>
+                      </div>
+
+                      <a href="/about-brand/projects/stadion-vtb-arena/" class="card-object__link"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-objects__footer">
+                <a href="/about-brand/projects/" class="button slider-objects__link button_blue"> Все объекты </a>
+                <div class="slider-objects__pagination"></div>
+                <div class="slider-objects__navigation">
+                  <button type="button" class="button-slider slider-objects__button-prev button-slider_prev button-slider_gray">
+                    <svg class="icon button-slider__icon icon_16x16" aria-hidden="true">
+                      <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-chevron"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="button-slider slider-objects__button-next button-slider_gray">
+                    <svg class="icon button-slider__icon icon_16x16" aria-hidden="true">
+                      <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-chevron"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__column">
+              <div class="footer__info">
+                <a class="footer__logo" href="/">
+                  <svg class="icon footer__logo-icon" aria-hidden="true">
+                    <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-logo"></use>
+                  </svg>
+                </a>
+                <div class="footer__contacts">
+                  <!--<a href="tel:+7 (812) 000 00 00" class="footer__phone">+7 (812) 000 00 00</a>-->
+                  <div class="footer__socials"></div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__center-column js-center-column">
+              <a href="/catalog/" class="footer__nav-title js-center-column__item"> Каталог </a>
+              <a href="/catalog/bytovye-konditsionery/" class="footer__nav-link js-center-column__item"> Бытовые кондиционеры </a>
+              <a href="/catalog/bytovye-konditsionery/multisplit-sistemy/" class="footer__nav-link js-center-column__item"> Мультисплит системы </a>
+              <a href="/catalog/vrf-sistemy/" class="footer__nav-link js-center-column__item"> VRF системы </a>
+              <a href="/catalog/promyshlennoe-oborudovanie/chillery/" class="footer__nav-link js-center-column__item"> Чиллеры </a>
+              <a href="/catalog/promyshlennoe-oborudovanie/fankoyly/" class="footer__nav-link js-center-column__item"> Фанкойлы </a>
+              <a href="/catalog/promyshlennoe-oborudovanie/ruftopy/" class="footer__nav-link js-center-column__item"> Руфтопы </a>
+              <a href="/catalog/promyshlennoe-oborudovanie/kompressorno-kondensatornyy-blok/" class="footer__nav-link js-center-column__item">
+                Компрессорно-конденсаторный блок
+              </a>
+              <a href="/catalog/polupromyshlennye-split-sistemy/" class="footer__nav-link js-center-column__item"> Полупромышленные сплит-системы </a>
+              <a href="/catalog/bytovye-konditsionery/teplovye-nasosy/" class="footer__nav-link js-center-column__item"> Тепловые насосы </a>
+              <a href="" class="footer__nav-link js-center-column__item"> Промышленные системы кондиционирования </a>
+              <a href="/catalog/#download" class="footer__nav-link js-center-column__item"> Каталоги для скачивания </a>
+              <a href="/about-brand/projects/" class="footer__nav-link js-center-column__item"> Реализованные объекты </a>
+              <a href="/support/" class="footer__nav-title js-center-column__item"> Поддержка </a>
+              <a href="/support/#tech" class="footer__nav-link js-center-column__item"> Техническая поддержка </a>
+              <a href="/support/#marketing" class="footer__nav-link js-center-column__item"> Маркетинговая поддержка </a>
+              <a href="/support/#service" class="footer__nav-link js-center-column__item"> Сервисная поддержка </a>
+              <div class="footer__center-column-loader footer__center-column-loader_active js-center-column__loader">
+                <div class="loader button__icon">
+                  <svg class="icon loader__icon" aria-hidden="true">
+                    <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-spinner"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="footer__column">
+              <div class="footer__menu">
+                <a href="/catalog/" class="footer__menu-link footer__menu-link_mob"> Каталог </a>
+                <a href="/support/" class="footer__menu-link footer__menu-link_mob"> Поддержка </a>
+                <a href="/about-brand/" class="footer__menu-link"> О бренде </a>
+                <a href="/where-buy/" class="footer__menu-link"> Где купить </a>
+                <a href="/news/" class="footer__menu-link"> Новости </a>
+                <a href="/contacts/" class="footer__menu-link"> Контакты </a>
+              </div>
+              <a href="/partner/#form" class="button footer__partners button_blue"> Стать партнером </a>
+              <a href="/partner/#form" class="button footer__partners"> Стать партнером </a>
+            </div>
+          </div>
+
+          <div class="footer__service">
+            <div class="footer__copyright">© 2023 Daichi. Все права защищены.</div>
+          </div>
+        </div>
+      </footer>
+      <button class="elevator text-tabs js-elevator">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_2107_508)">
+            <path d="M12 10L8 6L4 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </g>
+          <defs>
+            <clipPath id="clip0_2107_508">
+              <rect width="16" height="16" fill="white" transform="translate(16 16) rotate(-180)" />
+            </clipPath>
+          </defs>
+        </svg>
+        <span>наверх</span>
+      </button>
+      <div class="d-none" id="modal-city">
+        <div
+          class="form-city"
+          id="form-city"
+          data-limit="30"
+          data-method="post"
+          data-api-url="/ajax/city/list.php"
+          data-delay=""
+          data-set-api-url="/ajax/city/set_for_user.php"
+          data-set-method="post">
+          <h2 class="form-city__title h4">Выберите ваш город</h2>
+          <div class="form-city__form">
+            <vue-form-city
+              :limit="this.$options.LIMIT"
+              :api-url="this.$options.API_URL"
+              :method="this.$options.METHOD"
+              :set-api-url="this.$options.SET_API_URL"
+              :set-method="this.$options.SET_METHOD"
+              :delay="this.$options.DELAY"></vue-form-city>
+          </div>
+        </div>
+      </div>
+      <div class="app-modal">
+        <div class="app-modal__wrapper">
+          <div class="app-modal__inner">
+            <button type="button" class="app-modal__close">
+              <svg class="icon app-modal__close-icon" aria-hidden="true">
+                <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="app-modal__content"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cookie">
+        <div class="cookie__inner">
+          <button type="button" class="cookie__close">
+            <svg class="icon cookie__close-icon icon_16x16" aria-hidden="true">
+              <use xlink:href="https://air-midea.com/local/assets/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <div class="cookie__text">
+            Продолжая использовать этот сайт и нажимая кнопку «Принимаю», вы даете <a href="#">согласие на обработку файлов cookie</a>
+          </div>
+          <button type="button" class="cookie__accept button button_blue">Принимаю</button>
+        </div>
+      </div>
+      <div class="city-accept">
+        <div class="city-accept__inner">
+          <h6 class="city-accept__title">Ваш город Москва?</h6>
+          <button type="button" class="city-accept__accept button button_blue">Да</button>
+          <button type="button" class="city-accept__choose button button_secondary">Другой город</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      if (!window.BX) window.BX = {};
+      if (!window.BX.message)
+        window.BX.message = function (mess) {
+          if (typeof mess === "object") {
+            for (let i in mess) {
+              BX.message[i] = mess[i];
+            }
+            return true;
+          }
+        };
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({
+        JS_CORE_LOADING: "Загрузка...",
+        JS_CORE_NO_DATA: "- Нет данных -",
+        JS_CORE_WINDOW_CLOSE: "Закрыть",
+        JS_CORE_WINDOW_EXPAND: "Развернуть",
+        JS_CORE_WINDOW_NARROW: "Свернуть в окно",
+        JS_CORE_WINDOW_SAVE: "Сохранить",
+        JS_CORE_WINDOW_CANCEL: "Отменить",
+        JS_CORE_WINDOW_CONTINUE: "Продолжить",
+        JS_CORE_H: "ч",
+        JS_CORE_M: "м",
+        JS_CORE_S: "с",
+        JSADM_AI_HIDE_EXTRA: "Скрыть лишние",
+        JSADM_AI_ALL_NOTIF: "Показать все",
+        JSADM_AUTH_REQ: "Требуется авторизация!",
+        JS_CORE_WINDOW_AUTH: "Войти",
+        JS_CORE_IMAGE_FULL: "Полный размер",
+      });
+    </script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/core/core.min.js?1684235665220366"></script>
+    <script>
+      BX.setJSList([
+        "https://air-midea.com/bitrix/js/main/core/core_ajax.js",
+        "https://air-midea.com/bitrix/js/main/core/core_promise.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/promise/js/promise.js",
+        "https://air-midea.com/bitrix/js/main/loadext/loadext.js",
+        "https://air-midea.com/bitrix/js/main/loadext/extension.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/promise/js/promise.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/find/js/find.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/includes/js/includes.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/matches/js/matches.js",
+        "https://air-midea.com/bitrix/js/ui/polyfill/closest/js/closest.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/fill/main.polyfill.fill.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/find/js/find.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/matches/js/matches.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js",
+        "https://air-midea.com/bitrix/js/main/core/core.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js",
+        "https://air-midea.com/bitrix/js/main/lazyload/dist/lazyload.bundle.js",
+        "https://air-midea.com/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js",
+        "https://air-midea.com/bitrix/js/main/parambag/dist/parambag.bundle.js",
+      ]);
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({ pull_server_enabled: "N", pull_config_timestamp: "0", pull_guest_mode: "N", pull_guest_user_id: "0" });
+      (window.BX || top.BX).message({ PULL_OLD_REVISION: "Для продолжения корректной работы с сайтом необходимо перезагрузить страницу." });
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({
+        JS_CORE_LOADING: "Загрузка...",
+        JS_CORE_NO_DATA: "- Нет данных -",
+        JS_CORE_WINDOW_CLOSE: "Закрыть",
+        JS_CORE_WINDOW_EXPAND: "Развернуть",
+        JS_CORE_WINDOW_NARROW: "Свернуть в окно",
+        JS_CORE_WINDOW_SAVE: "Сохранить",
+        JS_CORE_WINDOW_CANCEL: "Отменить",
+        JS_CORE_WINDOW_CONTINUE: "Продолжить",
+        JS_CORE_H: "ч",
+        JS_CORE_M: "м",
+        JS_CORE_S: "с",
+        JSADM_AI_HIDE_EXTRA: "Скрыть лишние",
+        JSADM_AI_ALL_NOTIF: "Показать все",
+        JSADM_AUTH_REQ: "Требуется авторизация!",
+        JS_CORE_WINDOW_AUTH: "Войти",
+        JS_CORE_IMAGE_FULL: "Полный размер",
+      });
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({ AMPM_MODE: false });
+      (window.BX || top.BX).message({
+        MONTH_1: "Январь",
+        MONTH_2: "Февраль",
+        MONTH_3: "Март",
+        MONTH_4: "Апрель",
+        MONTH_5: "Май",
+        MONTH_6: "Июнь",
+        MONTH_7: "Июль",
+        MONTH_8: "Август",
+        MONTH_9: "Сентябрь",
+        MONTH_10: "Октябрь",
+        MONTH_11: "Ноябрь",
+        MONTH_12: "Декабрь",
+        MONTH_1_S: "января",
+        MONTH_2_S: "февраля",
+        MONTH_3_S: "марта",
+        MONTH_4_S: "апреля",
+        MONTH_5_S: "мая",
+        MONTH_6_S: "июня",
+        MONTH_7_S: "июля",
+        MONTH_8_S: "августа",
+        MONTH_9_S: "сентября",
+        MONTH_10_S: "октября",
+        MONTH_11_S: "ноября",
+        MONTH_12_S: "декабря",
+        MON_1: "янв",
+        MON_2: "фев",
+        MON_3: "мар",
+        MON_4: "апр",
+        MON_5: "май",
+        MON_6: "июн",
+        MON_7: "июл",
+        MON_8: "авг",
+        MON_9: "сен",
+        MON_10: "окт",
+        MON_11: "ноя",
+        MON_12: "дек",
+        DAY_OF_WEEK_0: "Воскресенье",
+        DAY_OF_WEEK_1: "Понедельник",
+        DAY_OF_WEEK_2: "Вторник",
+        DAY_OF_WEEK_3: "Среда",
+        DAY_OF_WEEK_4: "Четверг",
+        DAY_OF_WEEK_5: "Пятница",
+        DAY_OF_WEEK_6: "Суббота",
+        DOW_0: "Вс",
+        DOW_1: "Пн",
+        DOW_2: "Вт",
+        DOW_3: "Ср",
+        DOW_4: "Чт",
+        DOW_5: "Пт",
+        DOW_6: "Сб",
+        FD_SECOND_AGO_0: "#VALUE# секунд назад",
+        FD_SECOND_AGO_1: "#VALUE# секунду назад",
+        FD_SECOND_AGO_10_20: "#VALUE# секунд назад",
+        FD_SECOND_AGO_MOD_1: "#VALUE# секунду назад",
+        FD_SECOND_AGO_MOD_2_4: "#VALUE# секунды назад",
+        FD_SECOND_AGO_MOD_OTHER: "#VALUE# секунд назад",
+        FD_SECOND_DIFF_0: "#VALUE# секунд",
+        FD_SECOND_DIFF_1: "#VALUE# секунда",
+        FD_SECOND_DIFF_10_20: "#VALUE# секунд",
+        FD_SECOND_DIFF_MOD_1: "#VALUE# секунда",
+        FD_SECOND_DIFF_MOD_2_4: "#VALUE# секунды",
+        FD_SECOND_DIFF_MOD_OTHER: "#VALUE# секунд",
+        FD_SECOND_SHORT: "#VALUE#с",
+        FD_MINUTE_AGO_0: "#VALUE# минут назад",
+        FD_MINUTE_AGO_1: "#VALUE# минуту назад",
+        FD_MINUTE_AGO_10_20: "#VALUE# минут назад",
+        FD_MINUTE_AGO_MOD_1: "#VALUE# минуту назад",
+        FD_MINUTE_AGO_MOD_2_4: "#VALUE# минуты назад",
+        FD_MINUTE_AGO_MOD_OTHER: "#VALUE# минут назад",
+        FD_MINUTE_DIFF_0: "#VALUE# минут",
+        FD_MINUTE_DIFF_1: "#VALUE# минута",
+        FD_MINUTE_DIFF_10_20: "#VALUE# минут",
+        FD_MINUTE_DIFF_MOD_1: "#VALUE# минута",
+        FD_MINUTE_DIFF_MOD_2_4: "#VALUE# минуты",
+        FD_MINUTE_DIFF_MOD_OTHER: "#VALUE# минут",
+        FD_MINUTE_0: "#VALUE# минут",
+        FD_MINUTE_1: "#VALUE# минуту",
+        FD_MINUTE_10_20: "#VALUE# минут",
+        FD_MINUTE_MOD_1: "#VALUE# минуту",
+        FD_MINUTE_MOD_2_4: "#VALUE# минуты",
+        FD_MINUTE_MOD_OTHER: "#VALUE# минут",
+        FD_MINUTE_SHORT: "#VALUE#мин",
+        FD_HOUR_AGO_0: "#VALUE# часов назад",
+        FD_HOUR_AGO_1: "#VALUE# час назад",
+        FD_HOUR_AGO_10_20: "#VALUE# часов назад",
+        FD_HOUR_AGO_MOD_1: "#VALUE# час назад",
+        FD_HOUR_AGO_MOD_2_4: "#VALUE# часа назад",
+        FD_HOUR_AGO_MOD_OTHER: "#VALUE# часов назад",
+        FD_HOUR_DIFF_0: "#VALUE# часов",
+        FD_HOUR_DIFF_1: "#VALUE# час",
+        FD_HOUR_DIFF_10_20: "#VALUE# часов",
+        FD_HOUR_DIFF_MOD_1: "#VALUE# час",
+        FD_HOUR_DIFF_MOD_2_4: "#VALUE# часа",
+        FD_HOUR_DIFF_MOD_OTHER: "#VALUE# часов",
+        FD_HOUR_SHORT: "#VALUE#ч",
+        FD_YESTERDAY: "вчера",
+        FD_TODAY: "сегодня",
+        FD_TOMORROW: "завтра",
+        FD_DAY_AGO_0: "#VALUE# дней назад",
+        FD_DAY_AGO_1: "#VALUE# день назад",
+        FD_DAY_AGO_10_20: "#VALUE# дней назад",
+        FD_DAY_AGO_MOD_1: "#VALUE# день назад",
+        FD_DAY_AGO_MOD_2_4: "#VALUE# дня назад",
+        FD_DAY_AGO_MOD_OTHER: "#VALUE# дней назад",
+        FD_DAY_DIFF_0: "#VALUE# дней",
+        FD_DAY_DIFF_1: "#VALUE# день",
+        FD_DAY_DIFF_10_20: "#VALUE# дней",
+        FD_DAY_DIFF_MOD_1: "#VALUE# день",
+        FD_DAY_DIFF_MOD_2_4: "#VALUE# дня",
+        FD_DAY_DIFF_MOD_OTHER: "#VALUE# дней",
+        FD_DAY_AT_TIME: "#DAY# в #TIME#",
+        FD_DAY_SHORT: "#VALUE#д",
+        FD_MONTH_AGO_0: "#VALUE# месяцев назад",
+        FD_MONTH_AGO_1: "#VALUE# месяц назад",
+        FD_MONTH_AGO_10_20: "#VALUE# месяцев назад",
+        FD_MONTH_AGO_MOD_1: "#VALUE# месяц назад",
+        FD_MONTH_AGO_MOD_2_4: "#VALUE# месяца назад",
+        FD_MONTH_AGO_MOD_OTHER: "#VALUE# месяцев назад",
+        FD_MONTH_DIFF_0: "#VALUE# месяцев",
+        FD_MONTH_DIFF_1: "#VALUE# месяц",
+        FD_MONTH_DIFF_10_20: "#VALUE# месяцев",
+        FD_MONTH_DIFF_MOD_1: "#VALUE# месяц",
+        FD_MONTH_DIFF_MOD_2_4: "#VALUE# месяца",
+        FD_MONTH_DIFF_MOD_OTHER: "#VALUE# месяцев",
+        FD_MONTH_SHORT: "#VALUE#мес",
+        FD_YEARS_AGO_0: "#VALUE# лет назад",
+        FD_YEARS_AGO_1: "#VALUE# год назад",
+        FD_YEARS_AGO_10_20: "#VALUE# лет назад",
+        FD_YEARS_AGO_MOD_1: "#VALUE# год назад",
+        FD_YEARS_AGO_MOD_2_4: "#VALUE# года назад",
+        FD_YEARS_AGO_MOD_OTHER: "#VALUE# лет назад",
+        FD_YEARS_DIFF_0: "#VALUE# лет",
+        FD_YEARS_DIFF_1: "#VALUE# год",
+        FD_YEARS_DIFF_10_20: "#VALUE# лет",
+        FD_YEARS_DIFF_MOD_1: "#VALUE# год",
+        FD_YEARS_DIFF_MOD_2_4: "#VALUE# года",
+        FD_YEARS_DIFF_MOD_OTHER: "#VALUE# лет",
+        FD_YEARS_SHORT_0: "#VALUE#л",
+        FD_YEARS_SHORT_1: "#VALUE#г",
+        FD_YEARS_SHORT_10_20: "#VALUE#л",
+        FD_YEARS_SHORT_MOD_1: "#VALUE#г",
+        FD_YEARS_SHORT_MOD_2_4: "#VALUE#г",
+        FD_YEARS_SHORT_MOD_OTHER: "#VALUE#л",
+        CAL_BUTTON: "Выбрать",
+        CAL_TIME_SET: "Установить время",
+        CAL_TIME: "Время",
+        FD_LAST_SEEN_TOMORROW: "завтра в #TIME#",
+        FD_LAST_SEEN_NOW: "только что",
+        FD_LAST_SEEN_TODAY: "сегодня в #TIME#",
+        FD_LAST_SEEN_YESTERDAY: "вчера в #TIME#",
+        FD_LAST_SEEN_MORE_YEAR: "более года назад",
+      });
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({ WEEK_START: "1" });
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({
+        ADMIN_INCLAREA_DBLCLICK: "Двойной щелчок",
+        ADMIN_SHOW_MODE_ON: "включен",
+        ADMIN_SHOW_MODE_OFF: "выключен",
+        AMDIN_SHOW_MODE_TITLE: "Режим правки",
+        ADMIN_SHOW_MODE_ON_HINT: "Режим правки включен. На странице доступны элементы управления компонентами и включаемыми областями.",
+        ADMIN_SHOW_MODE_OFF_HINT: "Режим правки выключен",
+      });
+    </script>
+    <script type="text/javascript">
+      (window.BX || top.BX).message({
+        LANGUAGE_ID: "ru",
+        FORMAT_DATE: "DD.MM.YYYY",
+        FORMAT_DATETIME: "DD.MM.YYYY HH:MI:SS",
+        COOKIE_PREFIX: "BITRIX_SM",
+        SERVER_TZ_OFFSET: "0",
+        UTF_MODE: "Y",
+        SITE_ID: "s1",
+        SITE_DIR: "/",
+        USER_ID: "1",
+        SERVER_TIME: "1685017418",
+        USER_TZ_OFFSET: "0",
+        USER_TZ_AUTO: "Y",
+        bitrix_sessid: "b9e579594b1d155fea1bd984a152d8f5",
+      });
+    </script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/core/core_ls.min.js?16842356657365"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/session.min.js?16842356652394"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/pull/protobuf/protobuf.min.js?168423567076433"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/pull/protobuf/model.min.js?168423567014190"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/rest/client/rest.client.min.js?16842356789240"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/pull/client/pull.client.min.js?168423567048293"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/pageobject/pageobject.min.js?1684235665570"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/core/core_window.min.js?168423566576326"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/popup/dist/main.popup.bundle.min.js?168423566565492"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/date/main.date.min.js?168423566516388"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/core/core_date.min.js?168423566526661"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/fileman/sticker.min.js?168423567849131"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/core/core_admin.min.js?168423566521881"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/utils.min.js?168423566518721"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/hot_keys.min.js?168423566512333"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/admin_tools.min.js?168423566545764"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/popup_menu.min.js?16842356659738"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/admin_search.js?16842356657230"></script>
+    <script type="text/javascript" src="https://air-midea.com/bitrix/js/main/public_tools.min.js?168423566524373"></script>
+    <script type="text/javascript">
+      BX.message({
+        SessExpired:
+          "Ваш сеанс работы с сайтом завершен из-за отсутствия активности в течение 24 мин. Введенные на странице данные не будут сохранены. Скопируйте их перед тем, как закроете или обновите страницу.",
+      });
+      bxSession.Expand("b9e579594b1d155fea1bd984a152d8f5.c90f5366514c9de949f815a7beb8863d3c83f54c253f9c7817ad52e156537c8a");
+    </script>
+    <script type="text/javascript">
+      (function () {
+        "use strict";
+
+        var counter = function () {
+          var cookie = (function (name) {
+            var parts = ("; " + document.cookie).split("; " + name + "=");
+            if (parts.length == 2) {
+              try {
+                return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));
+              } catch (e) {}
+            }
+          })("BITRIX_CONVERSION_CONTEXT_s1");
+
+          if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME")) return;
+
+          var request = new XMLHttpRequest();
+          request.open("POST", "https://air-midea.com/bitrix/tools/conversion/ajax_counter.php", true);
+          request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+          request.send(
+            "SITE_ID=" +
+              encodeURIComponent("s1") +
+              "&sessid=" +
+              encodeURIComponent(BX.bitrix_sessid()) +
+              "&HTTP_REFERER=" +
+              encodeURIComponent(document.referrer)
+          );
+        };
+
+        if (window.frameRequestStart === true) BX.addCustomEvent("onFrameDataReceived", counter);
+        else BX.ready(counter);
+      })();
+    </script>
+    <script type="text/javascript">
+      BX.bind(window, "load", function () {
+        BX.PULL.start();
+      });
+    </script>
+
+    <script type="text/javascript">
+      var phpVars = {
+        ADMIN_THEME_ID: ".default",
+        LANGUAGE_ID: "ru",
+        FORMAT_DATE: "DD.MM.YYYY",
+        FORMAT_DATETIME: "DD.MM.YYYY HH:MI:SS",
+        opt_context_ctrl: false,
+        cookiePrefix: "BITRIX_SM",
+        titlePrefix: "192.168.0.101 - ",
+        bitrix_sessid: "b9e579594b1d155fea1bd984a152d8f5",
+        messHideMenu: "Скрыть меню",
+        messShowMenu: "Показать меню",
+        messHideButtons: "Уменьшить кнопки",
+        messShowButtons: "Увеличить кнопки",
+        messFilterInactive: "Поиск не используется - показаны все записи",
+        messFilterActive: "Используется поиск - показаны только найденные записи",
+        messFilterLess: "Скрыть условие поиска",
+        messLoading: "Загрузка...",
+        messMenuLoading: "Загрузка...",
+        messMenuLoadingTitle: "Загружаются пункты меню...",
+        messNoData: "- Нет данных -",
+        messExpandTabs: "Развернуть все вкладки на одну страницу",
+        messCollapseTabs: "Свернуть вкладки",
+        messPanelFixOn: "Зафиксировать панель на экране",
+        messPanelFixOff: "Открепить панель",
+        messPanelCollapse: "Скрыть панель",
+        messPanelExpand: "Показать панель",
+      };
+    </script>
+
+    <script type="text/javascript" src="https://air-midea.com/local/assets/js/vendor.js?168492474487462"></script>
+    <script type="text/javascript" src="https://air-midea.com/local/assets/js/vendors~index.chunk.js?1684235597445992"></script>
+    <script type="text/javascript" src="https://air-midea.com/local/assets/js/index.js?1684939087303425"></script>
+    <!-- <script type="text/javascript" src="https://air-midea.com/local/assets/js/custom.js?1684939132890"></script> -->
+
+    <script type="text/javascript" src="custom.js?1684939132890"></script>
+    <script type="text/javascript">
+      var _ba = _ba || [];
+      _ba.push(["aid", "0a2e1f17bb10ad9c45f454fa7914c6c5"]);
+      _ba.push(["host", "air-midea.com"]);
+      (function () {
+        var ba = document.createElement("script");
+        ba.type = "text/javascript";
+        ba.async = true;
+        ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ba, s);
+      })();
+    </script>
+
+    <script type="text/javascript">
+      BX.admin.dynamic_mode = false;
+      BX.admin.dynamic_mode_show_borders = false;
+    </script>
+    <script type="text/javascript">
+      BX.message({ MENU_ENABLE_TOOLTIP: true });
+      new BX.COpener({
+        DIV: "bx-panel-menu",
+        ACTIVE_CLASS: "bx-pressed",
+        MENU_URL:
+          "https://air-midea.com/bitrix/admin/get_start_menu.php?lang=ru&back_url_pub=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&sessid=b9e579594b1d155fea1bd984a152d8f5",
+        MENU_PRELOAD: false,
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", 'var d=BX("bx-panel-menu"); if (d) d.click();', 91, "Меню", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "var d=BX('bx-panel-admin-tab'); if (d) location.href = d.href;", 92, "Администрирование", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("Ctrl+Alt+79", "var d=BX('bx-panel-logout'); if (d) location.href = d.href;", 133, "Выход пользователя из системы.", 19);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "Ctrl+Alt+68",
+        'location.href="/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?bitrix_include_areas=Y";',
+        117,
+        "Режим правки",
+        16
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("Ctrl+Alt+69", "var d=BX('bx-panel-expander'); if (d) BX.fireEvent(d, 'click');", 118, "Развернуть/Свернуть", 21);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 111, "<b>Создать страницу</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?lang=ru&site=s1&templateID=midea&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+        60,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Создать страницу",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_create",
+        TYPE: "BIG",
+        ACTIVE_CSS: "bx-panel-button-icon-active",
+        HOVER_CSS: "bx-panel-button-icon-hover",
+        HINT: { TITLE: "Создать страницу", TEXT: "Создание страниц с помощью мастера." },
+        GROUP_ID: 0,
+        SKIP: true,
+      });
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_create_menu",
+        TYPE: "BIG",
+        MENU: [
+          {
+            TEXT: "Создать страницу",
+            TITLE: "Мастер создания новой страницы",
+            ICON: "panel-new-file",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?lang=ru&site=s1&templateID=midea&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+            DEFAULT: true,
+            SORT: "10",
+            HK_ID: "top_panel_create_page",
+          },
+          { SEPARATOR: true, SORT: "99" },
+          {
+            TEXT: "В панели управления",
+            TITLE: "Создать новую страницу",
+            ACTION:
+              "jsUtils.Redirect([], '/bitrix/admin/fileman_html_edit.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&new=Y&templateID=midea&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F')",
+            SORT: "100",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-button-text-active",
+        HOVER_CSS: "bx-panel-button-text-hover",
+        HINT: {
+          TITLE: "Создать страницу",
+          TEXT: "Нажмите на эту кнопку, чтобы запустить мастер или шаблон создания страниц или включаемых областей для страниц. С помощью этих мастеров, можно создать страницу или включаемую область, последовательно внося данные на каждом шаге мастера.",
+        },
+        GROUP_ID: 0,
+        TEXT: "Создать страницу",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 112, "<b>Создать раздел</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?lang=ru&site=s1&templateID=midea&newFolder=Y&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+        62,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Создать раздел",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_create_section",
+        TYPE: "BIG",
+        ACTIVE_CSS: "bx-panel-button-icon-active",
+        HOVER_CSS: "bx-panel-button-icon-hover",
+        HINT: { TITLE: "Создать раздел", TEXT: "Создание разделов с помощью мастера." },
+        GROUP_ID: 0,
+        SKIP: true,
+      });
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_create_section_menu",
+        TYPE: "BIG",
+        MENU: [
+          {
+            TEXT: "Создать раздел",
+            TITLE: "Мастер создания нового раздела",
+            ICON: "panel-new-folder",
+            DEFAULT: true,
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?lang=ru&site=s1&templateID=midea&newFolder=Y&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+            SORT: "10",
+            HK_ID: "top_panel_create_folder",
+          },
+          {
+            TEXT: "По шаблону",
+            TITLE: "Мастер создания нового раздела с индексной страницей по шаблону",
+            ICON: "panel-new-folder-template",
+            MENU: [
+              {
+                TEXT: "Форум (ЧПУ)",
+                TITLE: "Шаблон forum\nСтраница с форумами в режиме ЧПУ",
+                ICON: "",
+                IMAGE: "https://air-midea.com/bitrix/themes/.default/start_menu/forum/forum.gif",
+                ACTION:
+                  "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?newFolder=Y&wiz_template=forum&lang=ru&site=s1&templateID=midea&newFolder=Y&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+              },
+              { SEPARATOR: true },
+              {
+                TEXT: "Стандартная страница",
+                TITLE: "Шаблон standard.php",
+                ICON: "panel-new-file-template",
+                ACTION:
+                  "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_new.php?newFolder=Y&page_template=standard.php&lang=ru&site=s1&templateID=midea&newFolder=Y&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+              },
+            ],
+            SORT: "20",
+          },
+          { SEPARATOR: true, SORT: "99" },
+          {
+            TEXT: "В панели управления",
+            TITLE: "Создать новый раздел",
+            ACTION:
+              "jsUtils.Redirect([], '/bitrix/admin/fileman_newfolder.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F')",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-button-text-active",
+        HOVER_CSS: "bx-panel-button-text-hover",
+        HINT: {
+          TITLE: "Создать раздел",
+          TEXT: "Нажмите на эту кнопку, чтобы запустить мастер или шаблон создания разделов или включаемых областей для разделов. С помощью этих мастеров, можно создать страницу или включаемую область, последовательно внося данные на каждом шаге мастера.",
+        },
+        GROUP_ID: 0,
+        TEXT: "Создать раздел",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 107, "<b>Изменить страницу</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit.php?lang=ru&path=%2Fcatalog%2Findex.php&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&templateID=midea&siteTemplateId=midea','width':'985','height':'552','min_width':'780','min_height':'400'})).Show()",
+        63,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В визуальном редакторе",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_property.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+        64,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Заголовок и свойства страницы",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit.php?lang=ru&noeditor=Y&path=%2Fcatalog%2Findex.php&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'985','height':'552','min_width':'700','min_height':'400'})).Show()",
+        65,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В режиме HTML-кода",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit_src.php?lang=ru&path=%2Fcatalog%2Findex.php&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&templateID=midea&siteTemplateId=midea','width':'1219','height':'485','min_width':'700','min_height':'400'})).Show()",
+        67,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В режиме PHP-кода",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_delete.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&siteTemplateId=midea','width':'440','height':'180','min_width':'250','min_height':'180'})).Show()",
+        68,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удалить страницу",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_edit",
+        TYPE: "BIG",
+        ACTIVE_CSS: "bx-panel-button-icon-active",
+        HOVER_CSS: "bx-panel-button-icon-hover",
+        HINT: { TITLE: "Изменить страницу", TEXT: "Изменение содержимого страницы." },
+        GROUP_ID: 1,
+        SKIP: true,
+      });
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_edit_menu",
+        TYPE: "BIG",
+        MENU: [
+          {
+            TEXT: "В визуальном редакторе",
+            TITLE: "Редактировать страницу в визуальном редакторе",
+            ICON: "panel-edit-visual",
+            ACTION:
+              "(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit.php?lang=ru&path=%2Fcatalog%2Findex.php&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&templateID=midea&siteTemplateId=midea','width':'985','height':'552','min_width':'780','min_height':'400'})).Show()",
+            DEFAULT: true,
+            SORT: "10",
+            HK_ID: "top_panel_edit_page",
+          },
+          {
+            TEXT: "Заголовок и свойства страницы",
+            TITLE: "Изменить заголовок и другие свойства страницы",
+            ICON: "panel-file-props",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_property.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+            SORT: "20",
+            HK_ID: "top_panel_page_prop",
+          },
+          { SEPARATOR: true, SORT: "29" },
+          {
+            TEXT: "Доступ к странице",
+            TITLE: "Установить права доступа к странице",
+            ICON: "panel-file-access",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_access_edit.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+            SORT: "30",
+            HK_ID: "top_panel_access_page_new",
+          },
+          {
+            ID: "delete",
+            ICON: "icon-delete",
+            ALT: "Удалить страницу",
+            TEXT: "Удалить страницу",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_file_delete.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&siteTemplateId=midea','width':'440','height':'180','min_width':'250','min_height':'180'})).Show()",
+            SORT: "40",
+            HK_ID: "top_panel_del_page",
+          },
+          { SEPARATOR: true, SORT: "49" },
+          {
+            TEXT: "В режиме HTML-кода",
+            TITLE: "Редактировать страницу в режиме HTML",
+            ICON: "panel-edit-text",
+            ACTION:
+              "(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit.php?lang=ru&noeditor=Y&path=%2Fcatalog%2Findex.php&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'985','height':'552','min_width':'700','min_height':'400'})).Show()",
+            SORT: "50",
+            HK_ID: "top_panel_edit_page_html",
+          },
+          {
+            TEXT: "В режиме PHP-кода",
+            TITLE: "Редактировать полный PHP-код страницы",
+            ICON: "panel-edit-php",
+            ACTION:
+              "(new BX.CEditorDialog({'content_url':'/bitrix/admin/public_file_edit_src.php?lang=ru&path=%2Fcatalog%2Findex.php&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&templateID=midea&siteTemplateId=midea','width':'1219','height':'485','min_width':'700','min_height':'400'})).Show()",
+            SORT: "60",
+            HK_ID: "top_panel_edit_page_php",
+          },
+          { SEPARATOR: true, SORT: "99" },
+          {
+            TEXT: "В панели управления",
+            TITLE: "Редактировать текущую страницу",
+            ACTION:
+              "jsUtils.Redirect([], '/bitrix/admin/fileman_html_edit.php?lang=ru&site=s1&templateID=midea&path=%2Fcatalog%2Findex.php&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F')",
+            SORT: "100",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-button-text-active",
+        HOVER_CSS: "bx-panel-button-text-hover",
+        HINT: {
+          TITLE: "Изменить страницу",
+          TEXT: "Нажмите на эту кнопку, чтобы вызвать диалог редактирования страницы, в том числе через документооборот, просмотреть историю изменений страницы, изменить свойства страницы, ограничить доступ к ней.",
+        },
+        GROUP_ID: 1,
+        TEXT: "Изменить страницу",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 96, "<b>Изменить раздел</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "javascript:(new BX.CDialog({'content_url':'/bitrix/admin/public_folder_edit.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+        69,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Свойства раздела",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "(new BX.CDialog({'content_url':'/bitrix/admin/public_access_edit.php?lang=ru&site=s1&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+        70,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Доступ к разделу",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_edit_section",
+        TYPE: "BIG",
+        ACTIVE_CSS: "bx-panel-button-icon-active",
+        HOVER_CSS: "bx-panel-button-icon-hover",
+        HINT: { TITLE: "Изменить раздел", TEXT: "Изменение свойств раздела." },
+        GROUP_ID: 1,
+        SKIP: true,
+      });
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_edit_section_menu",
+        TYPE: "BIG",
+        MENU: [
+          {
+            TEXT: "Свойства раздела",
+            TITLE: "Изменить название и другие свойства раздела",
+            ICON: "panel-folder-props",
+            DEFAULT: true,
+            ACTION:
+              "javascript:(new BX.CDialog({'content_url':'/bitrix/admin/public_folder_edit.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+            SORT: "10",
+            HK_ID: "top_panel_folder_prop",
+          },
+          {
+            TEXT: "Доступ к разделу",
+            TITLE: "Установить права доступа к разделу",
+            ICON: "panel-folder-access",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_access_edit.php?lang=ru&site=s1&path=%2Fcatalog&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'','height':'','min_width':'450','min_height':'250'})).Show()",
+            SORT: "30",
+            HK_ID: "top_panel_access_folder_new",
+          },
+          { SEPARATOR: true, SORT: "99" },
+          {
+            TEXT: "В панели управления",
+            TITLE: "Редактировать свойства раздела",
+            ACTION:
+              "jsUtils.Redirect([], '/bitrix/admin/fileman_folder.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F')",
+            SORT: "100",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-button-text-active",
+        HOVER_CSS: "bx-panel-button-text-hover",
+        HINT: { TITLE: "Изменить раздел", TEXT: "Нажмите на эту кнопку, чтобы изменить свойства раздела и ограничить доступ к нему." },
+        GROUP_ID: 1,
+        TEXT: "Изменить раздел",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_menus",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: 'Редактировать "Верхнее меню"',
+            TITLE: 'Редактировать пункты меню "Верхнее меню"',
+            SORT: "100",
+            ICON: "menu-edit",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_menu_edit.php?lang=ru&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&path=%2F&name=header&siteTemplateId=midea','width':'','height':''})).Show()",
+            DEFAULT: false,
+          },
+          {
+            TEXT: 'Редактировать "Нижнее левое меню"',
+            TITLE: 'Редактировать пункты меню "Нижнее левое меню"',
+            SORT: "100",
+            ICON: "menu-edit",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_menu_edit.php?lang=ru&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&path=%2F&name=left_footer&siteTemplateId=midea','width':'','height':''})).Show()",
+            DEFAULT: false,
+          },
+          {
+            TEXT: 'Редактировать "Нижнее правое меню"',
+            TITLE: 'Редактировать пункты меню "Нижнее правое меню"',
+            SORT: "100",
+            ICON: "menu-edit",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_menu_edit.php?lang=ru&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&path=%2F&name=right_footer&siteTemplateId=midea','width':'','height':''})).Show()",
+            DEFAULT: false,
+          },
+          { SEPARATOR: "Y", SORT: "150" },
+          {
+            TEXT: 'Создать "Верхнее меню"',
+            TITLE: 'Создать меню "Верхнее меню" в текущем разделе',
+            SORT: "200",
+            ICON: "menu-add",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_menu_edit.php?new=Y&lang=ru&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&path=%2Fcatalog&name=header&siteTemplateId=midea','width':'','height':''})).Show()",
+            DEFAULT: false,
+          },
+          {
+            TEXT: 'Создать "Нижнее левое меню"',
+            TITLE: 'Создать меню "Нижнее левое меню" в текущем разделе',
+            SORT: "200",
+            ICON: "menu-add",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_menu_edit.php?new=Y&lang=ru&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&path=%2Fcatalog&name=left_footer&siteTemplateId=midea','width':'','height':''})).Show()",
+            DEFAULT: false,
+          },
+          {
+            TEXT: 'Создать "Нижнее правое меню"',
+            TITLE: 'Создать меню "Нижнее правое меню" в текущем разделе',
+            SORT: "200",
+            ICON: "menu-add",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_menu_edit.php?new=Y&lang=ru&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&path=%2Fcatalog&name=right_footer&siteTemplateId=midea','width':'','height':''})).Show()",
+            DEFAULT: false,
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-active",
+        HOVER_CSS: "bx-panel-small-button-hover",
+        HINT: {
+          TITLE: "Меню",
+          TEXT: "Вызов формы редактирования меню. Нажмите на стрелку, чтобы отредактировать все меню данной страницы или создать новое меню.",
+          TARGET: "parent",
+        },
+        GROUP_ID: 2,
+        TEXT: "Меню",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 97, "<b>Структура</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/bitrix/admin/fileman_admin.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F')",
+        71,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В панели управления",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_structure",
+        TYPE: "SMALL",
+        ACTIVE_CSS: "bx-panel-small-button-text-active",
+        HOVER_CSS: "bx-panel-small-button-text-hover",
+        HINT: {
+          TITLE: "Структура",
+          TEXT: "Вызов диалога Структура сайта с возможностью добавления, редактирования, перемещения, удаления, изменения свойств разделов и страниц.",
+          TARGET: "parent",
+        },
+        GROUP_ID: 2,
+        SKIP: true,
+        LINK: "javascript:void(0)",
+        ACTION:
+          "(new BX.CDialog({'content_url':'/bitrix/admin/public_structure.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&templateID=midea&siteTemplateId=midea','width':'350','height':'470'})).Show()",
+        TEXT: "Структура",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_structure_menu",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: "Управление структурой",
+            TITLE: "Управление структурой сайта",
+            ACTION:
+              "(new BX.CDialog({'content_url':'/bitrix/admin/public_structure.php?lang=ru&site=s1&path=%2Fcatalog%2Findex.php&templateID=midea&siteTemplateId=midea','width':'350','height':'470'})).Show()",
+            DEFAULT: true,
+            HK_ID: "main_top_panel_struct",
+          },
+          { SEPARATOR: true },
+          {
+            TEXT: "В панели управления",
+            TITLE: "Перейти в управление структурой в административном разделе",
+            ACTION:
+              "jsUtils.Redirect([], '/bitrix/admin/fileman_admin.php?lang=ru&site=s1&path=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F')",
+            HK_ID: "main_top_panel_struct_panel",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-arrow-active",
+        HOVER_CSS: "bx-panel-small-button-arrow-hover",
+        GROUP_ID: 2,
+        TEXT: "Структура",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_seo",
+        TYPE: "SMALL",
+        ACTIVE_CSS: "bx-panel-small-button-active",
+        HOVER_CSS: "bx-panel-small-button-hover",
+        HINT: { TITLE: "SEO", TEXT: "Вызов инструментов оптимизации сайта с целью повышения положения сайта в выдаче поисковых машин." },
+        GROUP_ID: 2,
+        SKIP: false,
+        LINK: "javascript:void(0)",
+        ACTION:
+          "(new BX.CAdminDialog({'content_url':'/bitrix/admin/public_seo_tools.php?lang=ru&bxpublic=Y&from_module=seo&site=s1&path=%2Fcatalog%2Findex.php&title_final=0JjQvdCy0LXRgNGC0L7RgNC90YvQtSDRgdC%2F0LvQuNGCLdGB0LjRgdGC0LXQvNGL&title_changer_name=bitrix%3Acatalog.section&title_changer_link=amF2YXNjcmlwdDoobmV3IEJYLkNBZG1pbkRpYWxvZyh7J2NvbnRlbnRfdXJsJzonL2JpdHJpeC9hZG1pbi9jYXRfc2VjdGlvbl9lZGl0LnBocD9JQkxPQ0tfSUQ9MSZ0eXBlPWNhdGFsb2cmSUQ9MTU2Jmxhbmc9cnUmZm9yY2VfY2F0YWxvZz0xJmZpbHRlcl9zZWN0aW9uPTE1NiZieHB1YmxpYz1ZJmZyb21fbW9kdWxlPWlibG9jayZyZXR1cm5fdXJsPSUyRmNhdGFsb2clMkZieXRvdnllLWtvbmRpdHNpb25lcnklMkZuYXN0ZW5ueWUtc3BsaXQtc2lzdGVteSUyRmludmVydG9ybnllLXNwbGl0LXNpc3RlbXklMkYmc2l0ZVRlbXBsYXRlSWQ9bWlkZWEnLCd3aWR0aCc6JzcwMCcsJ2hlaWdodCc6JzQwMCd9KSkuU2hvdygp&title_win_final=&title_win_changer_name=&title_win_changer_link=&sessid=b9e579594b1d155fea1bd984a152d8f5&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'920','height':'400'})).Show()",
+        TEXT: "SEO",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 98, "<b>Сбросить кеш</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "BX.clearCache()", 72, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Обновить кеш страницы", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?clear_cache_session=Y');",
+        74,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Не использовать кеш",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_0",
+        TYPE: "BIG",
+        ACTIVE_CSS: "bx-panel-button-icon-active",
+        HOVER_CSS: "bx-panel-button-icon-hover",
+        HINT: { TITLE: "Сбросить кеш", TEXT: "Обновление кеша страницы." },
+        GROUP_ID: 3,
+        SKIP: true,
+      });
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_0_menu",
+        TYPE: "BIG",
+        MENU: [
+          {
+            TEXT: "Обновить кеш страницы",
+            TITLE: "Обновить закешированные данные текущей страницы",
+            ICON: "panel-page-cache",
+            ACTION: "BX.clearCache()",
+            DEFAULT: true,
+            HK_ID: "top_panel_cache_page",
+          },
+          { SEPARATOR: true },
+          {
+            TEXT: "Не использовать кеш",
+            TITLE: "Отключить кеширование для текущего сеанса пользователя",
+            CHECKED: false,
+            ACTION:
+              "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?clear_cache_session=Y');",
+            HK_ID: "top_panel_cache_not",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-button-text-active",
+        HOVER_CSS: "bx-panel-button-text-hover",
+        HINT: {
+          TITLE: "Сбросить кеш",
+          TEXT: "Нажмите на эту кнопку, чтобы обновить кеш страницы или компонентов, или отключить кеш для данной страницы вообще.",
+        },
+        GROUP_ID: 3,
+        TEXT: "Сбросить кеш",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "jsUtils.Redirect([], BX('bx-panel-toggle').href);", 75, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перейти в режим правки", 0);
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_components",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: "Перейти в режим правки",
+            TITLE: "Перейдите в режим правки для отображения списка компонентов",
+            ACTION: "jsUtils.Redirect([], BX('bx-panel-toggle').href);",
+            HK_ID: "top_panel_edit_mode",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-active",
+        HOVER_CSS: "bx-panel-small-button-hover",
+        HINT: { TITLE: "Компоненты", TEXT: "Выбор компонента для редактирования его параметров.", TARGET: "parent" },
+        GROUP_ID: 4,
+        TEXT: "Компоненты",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 99, "<b>Шаблон сайта</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/bitrix/admin/site_edit.php?lang=ru&LID=s1')",
+        78,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Редактировать сайт",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_1",
+        TYPE: "SMALL",
+        ACTIVE_CSS: "bx-panel-small-button-text-active",
+        HOVER_CSS: "bx-panel-small-button-text-hover",
+        HINT: { TITLE: "Шаблон сайта", TEXT: "Вызов форм редактирования стилей сайта и стилей шаблона.", TARGET: "parent" },
+        GROUP_ID: 4,
+        SKIP: true,
+        LINK: "javascript:void(0)",
+        ACTION: "jsUtils.Redirect([], '/bitrix/admin/template_edit.php?lang=ru&ID=midea')",
+        TEXT: "Шаблон сайта",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_1_menu",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: "Редактировать шаблон",
+            TITLE: "Редактировать шаблон сайта в панели управления",
+            ICON: "icon-edit",
+            ACTION: "jsUtils.Redirect([], '/bitrix/admin/template_edit.php?lang=ru&ID=midea')",
+            DEFAULT: true,
+            HK_ID: "top_panel_templ_edit",
+          },
+          {
+            TEXT: "Редактировать сайт",
+            TITLE: "Редактировать настройки сайта в панели управления",
+            ICON: "icon-edit",
+            ACTION: "jsUtils.Redirect([], '/bitrix/admin/site_edit.php?lang=ru&LID=s1')",
+            DEFAULT: false,
+            HK_ID: "top_panel_templ_site",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-arrow-active",
+        HOVER_CSS: "bx-panel-small-button-arrow-hover",
+        GROUP_ID: 4,
+        TEXT: "Шаблон сайта",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 100, "<b>Отладка</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_sql_stat=Y');",
+        83,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Статистика SQL-запросов",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_include_exec_time=Y');",
+        82,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Статистика включаемых областей",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_page_exec_time=Y');",
+        81,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Время исполнения страницы",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_2",
+        TYPE: "SMALL",
+        ACTIVE_CSS: "bx-panel-small-button-text-active",
+        HOVER_CSS: "bx-panel-small-button-text-hover",
+        HINT: {
+          TITLE: "Отладка",
+          TEXT: "Включение режима отображения суммарной статистики. Нажмите на стрелку, чтобы Просмотреть статистику запросов базы данных, статистику включаемых областей, время исполнение страницы и статистику компрессии.",
+          TARGET: "parent",
+        },
+        GROUP_ID: 4,
+        SKIP: true,
+        LINK: "/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_page_exec_time=Y&show_include_exec_time=Y&show_sql_stat=Y",
+        ACTION: "",
+        TEXT: "Отладка",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_2_menu",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: "Суммарная статистика",
+            TITLE: "Показывать статистику SQL-запросов, включаемых областей, времени исполнения",
+            CHECKED: false,
+            ACTION:
+              "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_page_exec_time=Y&show_include_exec_time=Y&show_sql_stat=Y');",
+            DEFAULT: true,
+            HK_ID: "top_panel_debug_summ",
+          },
+          { SEPARATOR: true },
+          {
+            TEXT: "Статистика SQL-запросов",
+            TITLE: "Показывать статистику SQL-запросов, исполняющихся на странице",
+            CHECKED: false,
+            ACTION: "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_sql_stat=Y');",
+            HK_ID: "top_panel_debug_sql",
+          },
+          {
+            TEXT: "Детальная статистика кеша",
+            TITLE: "Внимание! Может сильно влиять на время исполнения страницы.",
+            CHECKED: false,
+            ACTION: "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_cache_stat=Y');",
+            HK_ID: "top_panel_debug_cache",
+          },
+          {
+            TEXT: "Статистика включаемых областей",
+            TITLE: "Показывать статистику включаемых областей (время, запросы)",
+            CHECKED: false,
+            ACTION:
+              "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_include_exec_time=Y');",
+            HK_ID: "top_panel_debug_incl",
+          },
+          {
+            TEXT: "Время исполнения страницы",
+            TITLE: "Показывать время исполнения страницы",
+            CHECKED: false,
+            ACTION:
+              "jsUtils.Redirect([], '/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/?show_page_exec_time=Y');",
+            HK_ID: "top_panel_debug_time",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-arrow-active",
+        HOVER_CSS: "bx-panel-small-button-arrow-hover",
+        GROUP_ID: 4,
+        TEXT: "Отладка",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 101, "<b>Короткий URL</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/short_uri_edit.php?lang=ru&public=Y&bxpublic=Y&str_URI=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'770','height':'270'})).Show()",
+        85,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить короткую ссылку",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "jsUtils.Redirect([], '/bitrix/admin/short_uri_admin.php?lang=ru');",
+        86,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Список ссылок",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_3",
+        TYPE: "SMALL",
+        ACTIVE_CSS: "bx-panel-small-button-text-active",
+        HOVER_CSS: "bx-panel-small-button-text-hover",
+        HINT: { TITLE: "Короткая ссылка", TEXT: "Настройка короткой ссылки для текущей страницы", TARGET: "parent" },
+        GROUP_ID: 5,
+        SKIP: true,
+        LINK: "javascript:void(0)",
+        ACTION:
+          "(new BX.CAdminDialog({'content_url':'/bitrix/admin/short_uri_edit.php?lang=ru&public=Y&bxpublic=Y&str_URI=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'770','height':'270'})).Show()",
+        TEXT: "Короткий URL",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_3_menu",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: "Добавить короткую ссылку",
+            TITLE: "Добавить короткую ссылку на текущую страницу",
+            ACTION:
+              "javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/short_uri_edit.php?lang=ru&public=Y&bxpublic=Y&str_URI=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&site=s1&back_url=%2Fcatalog%2Fbytovye-konditsionery%2Fnastennye-split-sistemy%2Finvertornye-split-sistemy%2F&siteTemplateId=midea','width':'770','height':'270'})).Show()",
+            DEFAULT: true,
+            HK_ID: "MTP_SHORT_URI1",
+          },
+          {
+            TEXT: "Список ссылок",
+            TITLE: "Список коротких ссылок",
+            ACTION: "jsUtils.Redirect([], '/bitrix/admin/short_uri_admin.php?lang=ru');",
+            HK_ID: "MTP_SHORT_URI_LIST",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-arrow-active",
+        HOVER_CSS: "bx-panel-small-button-arrow-hover",
+        GROUP_ID: 5,
+        TEXT: "Короткий URL",
+      });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add("", "", 102, "<b>Стикеры</b>", 0);
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "Ctrl+Shift+83",
+        "if (window.oBXSticker){window.oBXSticker.AddSticker();}",
+        87,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Наклеить стикер",
+        22
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "Ctrl+Shift+88",
+        "if (window.oBXSticker){window.oBXSticker.ShowAll();}",
+        88,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Показать стикеры (0)",
+        23
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "Ctrl+Shift+76",
+        "if (window.oBXSticker){window.oBXSticker.ShowList('current');}",
+        89,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Список стикеров страницы",
+        24
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "",
+        "if (window.oBXSticker){window.oBXSticker.ShowList('all');}",
+        90,
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Список всех стикеров",
+        0
+      );
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_4",
+        TYPE: "SMALL",
+        ACTIVE_CSS: "bx-panel-small-button-text-active",
+        HOVER_CSS: "bx-panel-small-button-text-hover",
+        HINT: { TITLE: "Стикеры", TEXT: "Наклеить новый стикер на страницу.", TARGET: "parent" },
+        GROUP_ID: 5,
+        SKIP: true,
+        LINK: "javascript:void(0)",
+        ACTION: "if (window.oBXSticker){window.oBXSticker.AddSticker();}",
+        TEXT: "Стикеры",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_4_menu",
+        TYPE: "SMALL",
+        MENU: [
+          {
+            TEXT: "Наклеить стикер",
+            TITLE: "Наклеить новый стикер на страницу ( Ctrl+Shift+S ) ",
+            ICON: "",
+            ACTION: "if (window.oBXSticker){window.oBXSticker.AddSticker();}",
+            DEFAULT: true,
+            HK_ID: "FMST_PANEL_STICKER_ADD",
+          },
+          { SEPARATOR: true },
+          {
+            ID: "bxst-show-sticker-icon",
+            TEXT: "Показать стикеры (0)",
+            TITLE: "Отобразить все стикеры на странице ( Ctrl+Shift+X ) ",
+            ICON: "",
+            ACTION: "if (window.oBXSticker){window.oBXSticker.ShowAll();}",
+            HK_ID: "FMST_PANEL_STICKERS_SHOW",
+          },
+          {
+            TEXT: "Список стикеров страницы",
+            TITLE: "Показать список всех стикеров на текущей странице ( Ctrl+Shift+L ) ",
+            ICON: "",
+            ACTION: "if (window.oBXSticker){window.oBXSticker.ShowList('current');}",
+            HK_ID: "FMST_PANEL_CUR_STICKER_LIST",
+          },
+          {
+            TEXT: "Список всех стикеров",
+            TITLE: "Показать список всех стикеров на сайте",
+            ICON: "",
+            ACTION: "if (window.oBXSticker){window.oBXSticker.ShowList('all');}",
+            HK_ID: "FMST_PANEL_ALL_STICKER_LIST",
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-small-button-arrow-active",
+        HOVER_CSS: "bx-panel-small-button-arrow-hover",
+        GROUP_ID: 5,
+        TEXT: "Стикеры",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_solutions_wizard",
+        TYPE: "BIG",
+        ACTIVE_CSS: "bx-panel-button-icon-active",
+        HOVER_CSS: "bx-panel-button-icon-hover",
+        HINT: { TITLE: "Протестировать новое решение", TEXT: "Выбор нового решения для установки." },
+        GROUP_ID: 6,
+        SKIP: true,
+      });
+      BX.admin.panel.RegisterButton({
+        ID: "bx_topmenu_btn_solutions_wizard_menu",
+        TYPE: "BIG",
+        MENU: [
+          {
+            ACTION: "jsUtils.Redirect([], '/?add_new_site_sol=sol&sessid=b9e579594b1d155fea1bd984a152d8f5')",
+            HTML: "<b>Протестировать новое решение<\/b>",
+            TITLE: "Создать новый сайт и запустить мастер установки нового решения",
+          },
+          {
+            ACTION:
+              "if(confirm('Внимание! После удаления кнопки вы сможете запустить мастер создания нового решения в панели управления, используя страницу с мастерами или формой добавления нового сайта. Удалить кнопку с панели?')) jsUtils.Redirect([], '/?delete_button_sol=sol&sessid=b9e579594b1d155fea1bd984a152d8f5');",
+            TEXT: "Удалить эту кнопку",
+            TITLE: "Удалить эту кнопку с панели",
+          },
+          { SEPARATOR: true },
+          {
+            TEXT: "Перейти на сайт",
+            MENU: [{ ACTION: "jsUtils.Redirect([], '/');", ICON: "checked", TEXT: "Сайт по умолчанию", TITLE: "Перейти на сайт Сайт по умолчанию" }],
+          },
+        ],
+        ACTIVE_CSS: "bx-panel-button-text-active",
+        HOVER_CSS: "bx-panel-button-text-hover",
+        HINT: {
+          TITLE: "Протестировать новое решение",
+          TEXT: "Нажмите на эту кнопку, чтобы выбрать новое решение для установки, удаление этой кнопки с Панели управления или для перехода на другой сайт.",
+        },
+        GROUP_ID: 6,
+        TEXT: "Протестировать новое решение",
+      });
+    </script>
+    <script type="text/javascript">
+      BX.admin.panel.state = {
+        fixed: false,
+        collapsed: false,
+      };
+      BX.admin.moreButton.init({ buttonTitle: "Еще" });
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.Add(
+        "Ctrl+Alt+75",
+        "location.href='/bitrix/admin/hot_keys_list.php?lang=ru';",
+        106,
+        "Перейти в раздел управления горячими клавишами",
+        18
+      );
+      BXHotKeys.Add("Ctrl+Alt+80", "BXHotKeys.ShowSettings();", 17, "Список горячих клавиш на странице", 14);
+      BXHotKeys.Add(
+        "Ctrl+Alt+85",
+        "location.href='/bitrix/admin/user_admin.php?lang='+phpVars.LANGUAGE_ID;",
+        139,
+        "Перейти в раздел управления пользователями",
+        13
+      );
+    </script>
+    <script type="text/javascript">
+      BXHotKeys.MesNotAssign = "не назначена";
+      BXHotKeys.MesClToChange = "Кликните мышкой, чтобы изменить";
+      BXHotKeys.MesClean = "Очистить";
+      BXHotKeys.MesBusy = "Данная комбинация клавиш уже задействована. Вы уверены, что хотите её использовать повторно?";
+      BXHotKeys.MesClose = "Закрыть";
+      BXHotKeys.MesSave = "Сохранить";
+      BXHotKeys.MesSettings = "Настройка горячих клавиш";
+      BXHotKeys.MesDefault = "По умолчанию";
+      BXHotKeys.MesDelAll = "Удалить все";
+      BXHotKeys.MesDelConfirm = "Вы уверены, что хотите удалить все назначенные сочетания горячих клавиш?";
+      BXHotKeys.MesDefaultConfirm =
+        "Вы уверены, что хотите удалить все назначенные сочетания горячих клавиш и установить сочетания горячих клавиш по умолчанию?";
+      BXHotKeys.MesExport = "Экспорт";
+      BXHotKeys.MesImport = "Импорт";
+      BXHotKeys.MesExpFalse = "Экспортировать горячие клавиши не удалось.";
+      BXHotKeys.MesImpFalse = "Импортировать горячие клавиши не удалось.";
+      BXHotKeys.MesImpSuc = "Успешно импортировано горячих клавиш: ";
+      BXHotKeys.MesImpHeader = "Импорт горячих клавиш";
+      BXHotKeys.MesFileEmpty = "Для импорта горячих клавиш необходимо указать файл.";
+      BXHotKeys.MesDelete = "Удалить";
+      BXHotKeys.MesChooseFile = "Выбрать файл";
+      BXHotKeys.uid = 1;
+    </script>
+    <script type="text/javascript">
+      BX.ready(function () {
+        var BXST_MESS = {
+          Public: "общий",
+          Personal: "личный",
+          Close: "Отклеить",
+          Collapse: "Свернуть",
+          UnCollapse: "Восстановить",
+          UnCollapseTitle: "Двойной клик для восстановления стикера",
+          SetMarkerArea: "Привязать к области на странице",
+          SetMarkerEl: "Привязать к элементу на странице",
+          Color: "цвет",
+          Add: "добавить",
+          PersonalTitle: "Только вы можете видеть этот стикер. Нажмите, чтобы изменить.",
+          PublicTitle: "Этот стикер могут видеть другие. Нажмите, чтобы изменить.",
+          CursorHint: "Выделите область",
+          Yellow: "Желтый",
+          Green: "Зеленый",
+          Blue: "Синий",
+          Red: "Красный",
+          Purple: "Пурпурный",
+          Gray: "Серый",
+          StickerListTitle: "Список стикеров",
+          CompleteLabel: "выполнено",
+          DelConfirm: "Вы уверены, что хотите удалить выбранные стикеры?",
+          CloseConfirm: "Этот стикер наклеил #USER_NAME# Вы уверенны, что хотите его отклеить?",
+          Complete: "Пометить как завершенное",
+          CloseNotify: "Вы можете вернуть отклеенные стикеры на экран из #LINK#списка стикеров#LINK#.",
+        };
+        window.oBXSticker = new BXSticker(
+          {
+            access: "W",
+            sessid_get: "sessid=b9e579594b1d155fea1bd984a152d8f5",
+            start_width: "350",
+            start_height: "200",
+            min_width: "280",
+            min_height: "160",
+            start_color: "0",
+            zIndex: "5000",
+            curUserName: "admin admin",
+            curUserId: "1",
+            pageUrl: "/catalog/bytovye-konditsionery/nastennye-split-sistemy/invertornye-split-sistemy/",
+            pageTitle: "Инверторные сплит-системы",
+            bShowStickers: false,
+            listWidth: "800",
+            listHeight: "450",
+            listNaviSize: "5",
+            useHotkeys: false,
+            filterParams: { type: "all", colors: "all", status: "opened", page: "all" },
+            bHideBottom: true,
+            focusOnSticker: "0",
+            strDate: "25 мая",
+            curPageCount: "0",
+            site_id: "s1",
+          },
+          [],
+          BXST_MESS
+        );
+      });
+    </script>
+    <script type="text/javascript">
+      function hideMpAnswer(el, module) {
+        if (el.parentNode.parentNode.parentNode) BX.hide(el.parentNode.parentNode.parentNode);
+        BX.ajax({
+          method: "POST",
+          dataType: "html",
+          url: "https://air-midea.com/bitrix/admin/partner_modules.php",
+          data: "module=" + module + "&sessid=b9e579594b1d155fea1bd984a152d8f5&act=unnotify",
+          async: true,
+          processData: false,
+        });
+      }
+    </script>
+    <script type="text/javascript">
+      function hideMpAnswer(el, module) {
+        if (el.parentNode.parentNode.parentNode) BX.hide(el.parentNode.parentNode.parentNode);
+        BX.ajax({
+          method: "POST",
+          dataType: "html",
+          url: "https://air-midea.com/bitrix/admin/partner_modules.php",
+          data: "module=" + module + "&sessid=b9e579594b1d155fea1bd984a152d8f5&act=unnotify",
+          async: true,
+          processData: false,
+        });
+      }
+    </script>
+    <script type="text/javascript">
+      BX.ready(function () {
+        BX.adminInformer.Init(5);
+      });
+    </script>
+  </body>
+</html>
