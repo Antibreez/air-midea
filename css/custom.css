@@ -452,4 +452,26 @@ img.icon.function-icon__img {
 
 .slider-main__tag {
   padding-bottom: 3px;
+  font-weight: 500;
+  display: block;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.slider-main__tag:hover {
+  text-decoration: none;
+  background-color: #72bffe;
+  color: #fff;
+}
+
+.objects__tags a {
+  padding-bottom: 3px;
+  font-weight: 500;
+  display: block;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.objects__tags a:hover {
+  text-decoration: none;
+  background-color: #72bffe;
+  color: #fff;
 }
