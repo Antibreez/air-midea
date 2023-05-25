@@ -242,14 +242,14 @@ img.icon.function-icon__img {
   display: block;
   height: 100%;
   width: 100%;
-  -webkit-backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) opacity(50%);
-  backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) opacity(50%);
+  -webkit-backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) brightness(50%);
+  backdrop-filter: invert(100%) blur(10000px) saturate(100%) contrast(1000%) grayscale(100%) brightness(50%);
 }
 
 .slider-main__progress-inner .progress-bar__value {
-  background-color: transparent;
-  -webkit-backdrop-filter: blur(10px) brightness(1000%);
-  backdrop-filter: blur(10px) brightness(1000%);
+  background-color: #fff;
+  /* -webkit-backdrop-filter: blur(10px) brightness(1000%);
+  backdrop-filter: blur(10px) brightness(1000%); */
 }
 
 .slider-main__pagination .swiper-pagination-current {
