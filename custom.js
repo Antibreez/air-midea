@@ -25,3 +25,7 @@ $(".header__button-catalog").on("click", function () {
     $("body").removeClass("body_modal");
   }
 });
+
+$(".product-card__top .swiper-pagination").on("mouseup", function (e) {
+  window.location.href = $(e.currentTarget).attr("href");
+});
