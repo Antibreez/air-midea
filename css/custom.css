@@ -421,6 +421,10 @@ img.icon.function-icon__img {
     transform: rotate(0deg);
   }
 
+  .breadcrumb__item:nth-last-child(2):hover::before {
+    transform: rotate(0deg);
+  }
+
   .support-section__card .card-category__name {
     max-width: 32.5vw;
   }
@@ -527,5 +531,16 @@ img.icon.function-icon__img {
 @media (max-width: 768.98px) {
   .footer__center-column {
     display: none;
+  }
+}
+/*========================*/
+.card-link__title {
+  word-break: break-all;
+}
+
+@media (max-width: 768.98px) {
+  span.models-compare__mobile {
+    width: 5vw;
+    height: 5vw;
   }
 }
