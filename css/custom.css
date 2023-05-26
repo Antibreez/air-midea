@@ -539,8 +539,22 @@ img.icon.function-icon__img {
 }
 
 @media (max-width: 768.98px) {
-  span.models-compare__mobile {
+  .models-compare__line--header > .models-compare__mobile {
     width: 5vw;
     height: 5vw;
+  }
+}
+
+/*===================================================*/
+
+@media (max-width: 768.98px) {
+  .burger-menu {
+    height: 100vh;
+    padding-top: 3.4375rem;
+    z-index: 11;
+  }
+
+  .header {
+    background-color: #fff;
   }
 }
