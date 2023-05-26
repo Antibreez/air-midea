@@ -29,3 +29,8 @@ $(".header__button-catalog").on("click", function () {
 $(".product-card__top .swiper-pagination").on("mouseup", function (e) {
   window.location.href = $(e.currentTarget).attr("href");
 });
+
+$(".header__nav .app-nav + .header__button-partner").on("click", function () {
+  $(".header__top").removeClass("js-show");
+  $("body").removeClass("body_modal");
+});
