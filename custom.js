@@ -34,3 +34,7 @@ $(".header__nav .app-nav + .header__button-partner").on("click", function () {
   $(".header__top").removeClass("js-show");
   $("body").removeClass("body_modal");
 });
+
+const timeLineSlider = new Swiper(".timeline__slider", {
+  slidesPerView: "auto",
+});
