@@ -617,3 +617,46 @@ img.icon.function-icon__img {
     padding-right: 1rem;
   }
 }
+
+.page-header__title.is--wide {
+  max-width: none;
+}
+
+.page-header_bg .text-body {
+  max-width: 420px;
+  margin-bottom: 1.125rem;
+}
+
+@media (max-width: 768.98px) {
+  .page-header_bg .text-body {
+    max-width: none;
+  }
+}
+
+img.header__logo-icon {
+  width: 143px;
+  height: auto;
+  max-height: none;
+  max-width: 80%;
+  margin-bottom: 1.154rem;
+}
+
+svg.header__logo-icon {
+  display: none;
+}
+
+@media (max-width: 768.98px) {
+  img.header__logo-icon {
+    display: none;
+  }
+
+  svg.header__logo-icon {
+    display: block;
+  }
+}
+
+@media (min-width: 768.99px) {
+  .header__logo {
+    align-items: flex-end;
+  }
+}
